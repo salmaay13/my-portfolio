@@ -1,20 +1,304 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salma Ayouch — Software Engineering Student</title>
-    <meta name="description" content="Portfolio of Salma Ayouch, Software Engineering student at EMSI, building web applications with React, Odoo, Python and PostgreSQL." />
-    <link rel="icon" href="data:,">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,600&family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salma Ayouch — Software Engineering Student</title>
+  <meta name="description" content="Portfolio of Salma Ayouch, Software Engineering student at EMSI." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header className="navbar" id="navbar">
+    <div className="navbar__inner container">
+      <a href="#home" className="navbar__logo">
+        <span className="navbar__logo-first">S</span>
+        <span className="navbar__logo-last">A</span>
+      </a>
+
+      <nav className="navbar__links navbar__links--desktop">
+        <a href="#home" className="navbar__link" data-i18n="nav.home">Home</a>
+        <a href="#about" className="navbar__link" data-i18n="nav.about">About</a>
+        <a href="#experience" className="navbar__link" data-i18n="nav.experience">Experience</a>
+        <a href="#projects" className="navbar__link" data-i18n="nav.projects">Projects</a>
+        <a href="#skills" className="navbar__link" data-i18n="nav.skills">Skills</a>
+        <a href="#contact" className="navbar__link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div className="navbar__actions">
+        <button id="lang-switch" className="lang-switch" aria-label="Toggle language">
+          <span id="lang-en" className="lang-switch__active">EN</span> / <span id="lang-fr">FR</span>
+        </button>
+        <button id="menu-toggle" className="navbar__toggle" aria-label="Toggle menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" className="navbar__links navbar__links--mobile hidden">
+      <a href="#home" className="navbar__link" data-i18n="nav.home">Home</a>
+      <a href="#about" className="navbar__link" data-i18n="nav.about">About</a>
+      <a href="#experience" className="navbar__link" data-i18n="nav.experience">Experience</a>
+      <a href="#projects" className="navbar__link" data-i18n="nav.projects">Projects</a>
+      <a href="#skills" className="navbar__link" data-i18n="nav.skills">Skills</a>
+      <a href="#contact" className="navbar__link" data-i18n="nav.contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" className="hero">
+      <div className="container hero__inner">
+        <div className="hero__text">
+          <p className="hero__eyebrow fade-in" data-i18n="hero.role">— Software Engineering Student</p>
+          <h1 className="hero__name fade-in fade-in--delay-1">
+            <span className="hero__name-first">SALMA</span>
+            <span className="hero__name-last">AYOUCH</span>
+          </h1>
+          <p className="hero__description fade-in fade-in--delay-2" data-i18n="hero.description">
+            Building modern web applications and business-oriented solutions with React, Odoo, Python and PostgreSQL.
+          </p>
+
+          <div className="hero__actions fade-in fade-in--delay-3">
+            <a href="#projects" className="btn btn--primary" data-i18n="hero.viewWork">View My Work</a>
+            <a href="#contact" className="btn btn--secondary" data-i18n="hero.contactMe">Contact Me</a>
+            <a href="cv.pdf" download className="btn btn--ghost" data-i18n="hero.downloadCv">Download CV</a>
+          </div>
+        </div>
+
+        <div className="hero__portrait fade-in fade-in--delay-2">
+          <div className="hero__frame">
+            <span className="hero__corner hero__corner--tl"></span>
+            <span className="hero__corner hero__corner--br"></span>
+            <div className="hero__photo">
+              <i data-lucide="user" style="width: 64px; height: 64px;"></i>
+            </div>
+          </div>
+          <span className="hero__tag" style="top: 6%; left: -8%;">React</span>
+          <span className="hero__tag" style="top: 38%; right: -10%;">Odoo</span>
+          <span className="hero__tag" style="bottom: 18%; left: -10%;">Python</span>
+          <span className="hero__tag" style="bottom: -4%; right: 4%;">PostgreSQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" className="section">
+      <div className="container">
+        <h2 className="section__title" data-i18n="about.title">About Me</h2>
+        <div className="about fade-up">
+          <p className="about__intro" data-i18n="about.intro">
+            I'm a 3rd-year Software Engineering student passionate about building reliable, business-oriented web applications.
+          </p>
+          <div className="about__grid">
+            <div className="about__item">
+              <i data-lucide="graduation-cap"></i>
+              <div>
+                <span className="about__label" data-i18n="about.educationTitle">Education</span>
+                <p data-i18n="about.education">Software Engineering / Computer and Networks Engineering — EMSI, Morocco (3rd year)</p>
+              </div>
+            </div>
+            <div className="about__item">
+              <i data-lucide="map-pin"></i>
+              <div>
+                <span className="about__label" data-i18n="about.locationTitle">Location</span>
+                <p data-i18n="about.location">Morocco</p>
+              </div>
+            </div>
+            <div className="about__item">
+              <i data-lucide="languages"></i>
+              <div>
+                <span className="about__label" data-i18n="about.languagesTitle">Languages</span>
+                <p data-i18n="about.languages">French, English, Arabic</p>
+              </div>
+            </div>
+          </div>
+          <div className="about__connect">
+            <span className="about__label" data-i18n="about.connectTitle">Connect</span>
+            <div className="about__connect-links">
+              <a href="https://github.com/salmaay13" target="_blank" rel="noreferrer"><i data-lucide="github"></i> GitHub</a>
+              <a href="https://www.linkedin.com/in/salma-ayouch/" target="_blank" rel="noreferrer"><i data-lucide="linkedin"></i> LinkedIn</a>
+              <a href="mailto:salmaa.ayouch@gmail.com"><i data-lucide="mail"></i> salmaa.ayouch@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" className="section section--alt">
+      <div className="container">
+        <h2 className="section__title" data-i18n="experience.title">Experience</h2>
+        <div className="timeline fade-up">
+          <div className="timeline__line"></div>
+          <div className="timeline__item">
+            <div className="timeline__dot"><i data-lucide="briefcase"></i></div>
+            <div className="timeline__content">
+              <span className="timeline__period" data-i18n="experience.period">July 2026 – August 2026</span>
+              <h3 className="timeline__role" data-i18n="experience.role">Software Engineering Intern</h3>
+              <p className="timeline__company">Yealead</p>
+              <p className="timeline__description" data-i18n="experience.description">
+                Designed and developed a generic and reusable Approval Workflow Engine for Odoo Community 18.
+              </p>
+              <div className="timeline__tech">
+                <span className="about__label" data-i18n="experience.techLabel">Technologies</span>
+                <div className="project-card__tech">
+                  <span className="tag">Odoo 18</span>
+                  <span className="tag">Python</span>
+                  <span className="tag">JavaScript</span>
+                  <span className="tag">XML-RPC / API</span>
+                  <span className="tag">PostgreSQL</span>
+                  <span className="tag">Git</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" className="section">
+      <div className="container">
+        <h2 className="section__title" data-i18n="projects.title">Projects</h2>
+        <p className="section__subtitle" data-i18n="projects.subtitle">A selection of things I have built.</p>
+        <div className="projects__grid">
+          <!-- Project 1 -->
+          <article className="project-card fade-up">
+            <div className="project-card__media"><div className="project-card__placeholder"><span>01</span></div></div>
+            <div className="project-card__body">
+              <span className="project-card__number">01</span>
+              <h3 className="project-card__title" data-i18n="projects.p1.title">Approval Workflow Engine</h3>
+              <p className="project-card__description" data-i18n="projects.p1.desc">A generic and reusable approval workflow engine developed for Odoo Community 18.</p>
+              <div className="project-card__tech">
+                <span className="tag">Odoo 18</span><span className="tag">Python</span><span className="tag">JavaScript</span><span className="tag">PostgreSQL</span>
+              </div>
+              <div className="project-card__actions">
+                <a href="https://github.com/salmaay13" target="_blank" className="btn btn--ghost btn--sm"><i data-lucide="github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- Project 2 -->
+          <article className="project-card fade-up">
+            <div className="project-card__media"><div className="project-card__placeholder"><span>02</span></div></div>
+            <div className="project-card__body">
+              <span className="project-card__number">02</span>
+              <h3 className="project-card__title" data-i18n="projects.p2.title">Odoo Data Quality</h3>
+              <p className="project-card__description" data-i18n="projects.p2.desc">A solution designed to detect, monitor and improve data quality within Odoo.</p>
+              <div className="project-card__tech">
+                <span className="tag">Odoo</span><span className="tag">Python</span><span className="tag">PostgreSQL</span>
+              </div>
+              <div className="project-card__actions">
+                <a href="https://github.com/salmaay13" target="_blank" className="btn btn--ghost btn--sm"><i data-lucide="github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article className="project-card fade-up">
+            <div className="project-card__media"><div className="project-card__placeholder"><span>03</span></div></div>
+            <div className="project-card__body">
+              <span className="project-card__number">03</span>
+              <h3 className="project-card__title" data-i18n="projects.p3.title">Authentication Web Application</h3>
+              <p className="project-card__description" data-i18n="projects.p3.desc">Full authentication web application covering sign up, login and session handling.</p>
+              <div className="project-card__tech">
+                <span className="tag">React</span><span className="tag">Node.js</span><span className="tag">Express</span><span className="tag">JWT</span>
+              </div>
+              <div className="project-card__actions">
+                <a href="https://github.com/salmaay13" target="_blank" className="btn btn--ghost btn--sm"><i data-lucide="github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" className="section section--alt">
+      <div className="container">
+        <h2 className="section__title" data-i18n="skills.title">Skills</h2>
+        <div className="skills__grid fade-up">
+          <div className="skill-card">
+            <div className="skill-card__header"><i data-lucide="code-2"></i><h3 data-i18n="skills.cat.frontend">Frontend</h3></div>
+            <div className="skill-card__items"><span className="tag">React</span><span className="tag">JavaScript</span><span className="tag">HTML</span><span className="tag">CSS</span></div>
+          </div>
+          <div className="skill-card">
+            <div className="skill-card__header"><i data-lucide="server"></i><h3 data-i18n="skills.cat.backend">Backend</h3></div>
+            <div className="skill-card__items"><span className="tag">Node.js</span><span className="tag">Express</span><span className="tag">Python</span></div>
+          </div>
+          <div className="skill-card">
+            <div className="skill-card__header"><i data-lucide="building-2"></i><h3 data-i18n="skills.cat.erp">ERP / Business</h3></div>
+            <div className="skill-card__items"><span className="tag">Odoo</span><span className="tag">Odoo 18</span><span className="tag">XML-RPC</span><span className="tag">REST APIs</span></div>
+          </div>
+          <div className="skill-card">
+            <div className="skill-card__header"><i data-lucide="database"></i><h3 data-i18n="skills.cat.database">Database</h3></div>
+            <div className="skill-card__items"><span className="tag">PostgreSQL</span><span className="tag">Neon</span></div>
+          </div>
+          <div className="skill-card">
+            <div className="skill-card__header"><i data-lucide="wrench"></i><h3 data-i18n="skills.cat.tools">Tools</h3></div>
+            <div className="skill-card__items"><span className="tag">Git</span><span className="tag">GitHub</span><span className="tag">VS Code</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" className="section">
+      <div className="container">
+        <h2 className="section__title" data-i18n="contact.title">Contact</h2>
+        <p className="section__subtitle" data-i18n="contact.subtitle">Let's talk about opportunities and ideas.</p>
+        <div className="contact__grid">
+          <div className="contact__info">
+            <a className="contact__info-item" href="mailto:salmaa.ayouch@gmail.com">
+              <i data-lucide="mail"></i>
+              <div><span className="about__label" data-i18n="contact.email">Email</span><p>salmaa.ayouch@gmail.com</p></div>
+            </a>
+            <a className="contact__info-item" href="https://github.com/salmaay13" target="_blank" rel="noreferrer">
+              <i data-lucide="github"></i>
+              <div><span className="about__label" data-i18n="contact.github">GitHub</span><p>https://github.com/salmaay13</p></div>
+            </a>
+            <a className="contact__info-item" href="https://www.linkedin.com/in/salma-ayouch/" target="_blank" rel="noreferrer">
+              <i data-lucide="linkedin"></i>
+              <div><span className="about__label" data-i18n="contact.linkedin">LinkedIn</span><p>https://www.linkedin.com/in/salma-ayouch/</p></div>
+            </a>
+          </div>
+
+          <form id="contact-form" className="contact__form">
+            <label>
+              <span data-i18n="contact.formName">Name</span>
+              <input type="text" id="form-name" required />
+            </label>
+            <label>
+              <span data-i18n="contact.formEmail">Email</span>
+              <input type="email" id="form-email" required />
+            </label>
+            <label>
+              <span data-i18n="contact.formMessage">Message</span>
+              <textarea id="form-message" rows="5" required></textarea>
+            </label>
+            <button type="submit" className="btn btn--primary" data-i18n="contact.send">Send Message</button>
+            <p id="contact-sent" className="contact__sent hidden" data-i18n="contact.sent">Message ready — form submitted!</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer className="footer">
+    <div className="container footer__inner">
+      <p>© 2026 Salma Ayouch. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <div className="footer__links">
+        <a href="https://github.com/salmaay13" target="_blank"><i data-lucide="github"></i></a>
+        <a href="https://www.linkedin.com/in/salma-ayouch/" target="_blank"><i data-lucide="linkedin"></i></a>
+        <a href="mailto:salmaa.ayouch@gmail.com"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
