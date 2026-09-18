@@ -1,304 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Salma Ayouch — Software Engineering Student</title>
-  <meta name="description" content="Portfolio of Salma Ayouch, Software Engineering student at EMSI." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <title>Salma Ayouch — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+  <!-- Custom Cursor Accents -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Preloader Intro -->
+  <div id="intro">
+    <div class="intro-panel top"></div>
+    <div class="intro-panel bottom"></div>
+    <div class="intro-content">
+      <div class="intro-line"></div>
+      <h1 class="intro-name">
+        <span class="word w1"><span>SALMA</span></span>
+        <span class="word w2"><span>AYOUCH</span></span>
+      </h1>
+      <p class="intro-tag"><span>SOFTWARE&nbsp;ENGINEERING&nbsp;STUDENT</span></p>
+    </div>
+  </div>
+
+  <canvas id="bg-canvas"></canvas>
+
   <!-- Navbar -->
-  <header class="navbar" id="navbar">
-    <div class="navbar__inner container">
-      <a href="#home" class="navbar__logo">
-        <span class="navbar__logo-first">S</span>
-        <span class="navbar__logo-last">A</span>
-      </a>
+  <nav id="navbar">
+    <a class="logo" href="#hero">S<span>A</span></a>
 
-      <nav class="navbar__links navbar__links--desktop">
-        <a href="#home" class="navbar__link" data-i18n="nav.home">Home</a>
-        <a href="#about" class="navbar__link" data-i18n="nav.about">About</a>
-        <a href="#experience" class="navbar__link" data-i18n="nav.experience">Experience</a>
-        <a href="#projects" class="navbar__link" data-i18n="nav.projects">Projects</a>
-        <a href="#skills" class="navbar__link" data-i18n="nav.skills">Skills</a>
-        <a href="#contact" class="navbar__link" data-i18n="nav.contact">Contact</a>
-      </nav>
+    <ul class="nav-links">
+      <li><a href="#hero" data-key="nav_home">Home</a></li>
+      <li><a href="#about" data-key="nav_about">About</a></li>
+      <li><a href="#experience" data-key="nav_exp">Experience</a></li>
+      <li><a href="#projects" data-key="nav_proj">Projects</a></li>
+      <li><a href="#skills" data-key="nav_skills">Skills</a></li>
+      <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+    </ul>
 
-      <div class="navbar__actions">
-        <button id="lang-switch" class="lang-switch" aria-label="Toggle language">
-          <span id="lang-en" class="lang-switch__active">EN</span> / <span id="lang-fr">FR</span>
-        </button>
-        <button id="menu-toggle" class="navbar__toggle" aria-label="Toggle menu">
-          <i data-lucide="menu"></i>
-        </button>
+    <div class="nav-right">
+      <button id="langToggle" aria-label="Switch language">
+        <span class="lang-opt active" data-lang="en">EN</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="fr">FR</span>
+      </button>
+      <button id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu">
+    <ul>
+      <li><a href="#hero" data-key="nav_home">Home</a></li>
+      <li><a href="#about" data-key="nav_about">About</a></li>
+      <li><a href="#experience" data-key="nav_exp">Experience</a></li>
+      <li><a href="#projects" data-key="nav_proj">Projects</a></li>
+      <li><a href="#skills" data-key="nav_skills">Skills</a></li>
+      <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-text">
+      <p class="hero-tag reveal-line"><span data-key="hero_tag">— Software Engineering Student</span></p>
+      <h1 class="hero-name">
+        <span class="reveal-line"><span>Salma</span></span>
+        <span class="reveal-line gold"><span>AYOUCH</span></span>
+      </h1>
+      <p class="hero-desc reveal-line"><span data-key="hero_desc">Building modern web applications and business-oriented solutions with React, Odoo, Python, and PostgreSQL.</span></p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-gold water" data-key="hero_btn1">View My Work</a>
+        <a href="#contact" class="btn-outline water" data-key="hero_btn2">Contact Me</a>
+        <a href="cv.pdf" download class="btn-outline water" data-key="hero_cv">Download CV</a>
       </div>
     </div>
 
-    <nav id="mobile-menu" class="navbar__links navbar__links--mobile hidden">
-      <a href="#home" class="navbar__link" data-i18n="nav.home">Home</a>
-      <a href="#about" class="navbar__link" data-i18n="nav.about">About</a>
-      <a href="#experience" class="navbar__link" data-i18n="nav.experience">Experience</a>
-      <a href="#projects" class="navbar__link" data-i18n="nav.projects">Projects</a>
-      <a href="#skills" class="navbar__link" data-i18n="nav.skills">Skills</a>
-      <a href="#contact" class="navbar__link" data-i18n="nav.contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="container hero__inner">
-        <div class="hero__text">
-          <p class="hero__eyebrow fade-in" data-i18n="hero.role">— Software Engineering Student</p>
-          <h1 class="hero__name fade-in fade-in--delay-1">
-            <span class="hero__name-first">SALMA</span>
-            <span class="hero__name-last">AYOUCH</span>
-          </h1>
-          <p class="hero__description fade-in fade-in--delay-2" data-i18n="hero.description">
-            Building modern web applications and business-oriented solutions with React, Odoo, Python and PostgreSQL.
-          </p>
-
-          <div class="hero__actions fade-in fade-in--delay-3">
-            <a href="#projects" class="btn btn--primary" data-i18n="hero.viewWork">View My Work</a>
-            <a href="#contact" class="btn btn--secondary" data-i18n="hero.contactMe">Contact Me</a>
-            <a href="cv.pdf" download class="btn btn--ghost" data-i18n="hero.downloadCv">Download CV</a>
-          </div>
-        </div>
-
-        <div class="hero__portrait fade-in fade-in--delay-2">
-          <div class="hero__frame">
-            <span class="hero__corner hero__corner--tl"></span>
-            <span class="hero__corner hero__corner--br"></span>
-            <div class="hero__photo">
-              <i data-lucide="user" style="width: 64px; height: 64px;"></i>
-            </div>
-          </div>
-          <span class="hero__tag" style="top: 6%; left: -8%;">React</span>
-          <span class="hero__tag" style="top: 38%; right: -10%;">Odoo</span>
-          <span class="hero__tag" style="bottom: 18%; left: -10%;">Python</span>
-          <span class="hero__tag" style="bottom: -4%; right: 4%;">PostgreSQL</span>
-        </div>
+    <div class="hero-visual" id="heroVisual">
+      <div class="photo-wrap">
+        <img src="assets/images/SalmaAyouch.png" alt="Salma AYOUCH"
+          onerror="this.style.display='none';document.getElementById('initials').style.display='flex'">
+        <div id="initials">SA</div>
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
       </div>
-    </section>
+      <div class="badge b1">React</div>
+      <div class="badge b2">Odoo</div>
+      <div class="badge b3">Python</div>
+      <div class="badge b4">PostgreSQL</div>
+    </div>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2 class="section__title" data-i18n="about.title">About Me</h2>
-        <div class="about fade-up">
-          <p class="about__intro" data-i18n="about.intro">
-            I'm a 3rd-year Software Engineering student passionate about building reliable, business-oriented web applications.
-          </p>
-          <div class="about__grid">
-            <div class="about__item">
-              <i data-lucide="graduation-cap"></i>
-              <div>
-                <span class="about__label" data-i18n="about.educationTitle">Education</span>
-                <p data-i18n="about.education">Software Engineering / Computer and Networks Engineering — EMSI, Morocco (3rd year)</p>
-              </div>
-            </div>
-            <div class="about__item">
-              <i data-lucide="map-pin"></i>
-              <div>
-                <span class="about__label" data-i18n="about.locationTitle">Location</span>
-                <p data-i18n="about.location">Morocco</p>
-              </div>
-            </div>
-            <div class="about__item">
-              <i data-lucide="languages"></i>
-              <div>
-                <span class="about__label" data-i18n="about.languagesTitle">Languages</span>
-                <p data-i18n="about.languages">French, English, Arabic</p>
-              </div>
-            </div>
-          </div>
-          <div class="about__connect">
-            <span class="about__label" data-i18n="about.connectTitle">Connect</span>
-            <div class="about__connect-links">
-              <a href="https://github.com/salmaay13" target="_blank" rel="noreferrer"><i data-lucide="github"></i> GitHub</a>
-              <a href="https://www.linkedin.com/in/salma-ayouch/" target="_blank" rel="noreferrer"><i data-lucide="linkedin"></i> LinkedIn</a>
-              <a href="mailto:salmaa.ayouch@gmail.com"><i data-lucide="mail"></i> salmaa.ayouch@gmail.com</a>
-            </div>
-          </div>
-        </div>
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <h2 class="sec-title" data-key="about_title">About <em>Me</em></h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="about-wrap">
+      <div class="about-text fade-up">
+        <p class="about-intro" data-key="about_intro">3rd-year Software Engineering student passionate about building reliable, business-oriented web applications.</p>
+        <p class="about-body" data-key="about_body">I enjoy working across the stack—from crafting clean interfaces to designing solid backend logic and ERP integrations with Odoo, Python, and modern web frameworks.</p>
       </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="section section--alt">
-      <div class="container">
-        <h2 class="section__title" data-i18n="experience.title">Experience</h2>
-        <div class="timeline fade-up">
-          <div class="timeline__line"></div>
-          <div class="timeline__item">
-            <div class="timeline__dot"><i data-lucide="briefcase"></i></div>
-            <div class="timeline__content">
-              <span class="timeline__period" data-i18n="experience.period">July 2026 – August 2026</span>
-              <h3 class="timeline__role" data-i18n="experience.role">Software Engineering Intern</h3>
-              <p class="timeline__company">Yealead</p>
-              <p class="timeline__description" data-i18n="experience.description">
-                Designed and developed a generic and reusable Approval Workflow Engine for Odoo Community 18.
-              </p>
-              <div class="timeline__tech">
-                <span class="about__label" data-i18n="experience.techLabel">Technologies</span>
-                <div class="project-card__tech">
-                  <span class="tag">Odoo 18</span>
-                  <span class="tag">Python</span>
-                  <span class="tag">JavaScript</span>
-                  <span class="tag">XML-RPC / API</span>
-                  <span class="tag">PostgreSQL</span>
-                  <span class="tag">Git</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section__title" data-i18n="projects.title">Projects</h2>
-        <p class="section__subtitle" data-i18n="projects.subtitle">A selection of things I have built.</p>
-        <div class="projects__grid">
-          <!-- Project 1 -->
-          <article class="project-card fade-up">
-            <div class="project-card__media"><div class="project-card__placeholder"><span>01</span></div></div>
-            <div class="project-card__body">
-              <span class="project-card__number">01</span>
-              <h3 class="project-card__title" data-i18n="projects.p1.title">Approval Workflow Engine</h3>
-              <p class="project-card__description" data-i18n="projects.p1.desc">A generic and reusable approval workflow engine developed for Odoo Community 18.</p>
-              <div class="project-card__tech">
-                <span class="tag">Odoo 18</span><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">PostgreSQL</span>
-              </div>
-              <div class="project-card__actions">
-                <a href="https://github.com/salmaay13" target="_blank" class="btn btn--ghost btn--sm"><i data-lucide="github"></i> GitHub</a>
-              </div>
-            </div>
-          </article>
-          <!-- Project 2 -->
-          <article class="project-card fade-up">
-            <div class="project-card__media"><div class="project-card__placeholder"><span>02</span></div></div>
-            <div class="project-card__body">
-              <span class="project-card__number">02</span>
-              <h3 class="project-card__title" data-i18n="projects.p2.title">Odoo Data Quality</h3>
-              <p class="project-card__description" data-i18n="projects.p2.desc">A solution designed to detect, monitor and improve data quality within Odoo.</p>
-              <div class="project-card__tech">
-                <span class="tag">Odoo</span><span class="tag">Python</span><span class="tag">PostgreSQL</span>
-              </div>
-              <div class="project-card__actions">
-                <a href="https://github.com/salmaay13" target="_blank" class="btn btn--ghost btn--sm"><i data-lucide="github"></i> GitHub</a>
-              </div>
-            </div>
-          </article>
-          <!-- Project 3 -->
-          <article class="project-card fade-up">
-            <div class="project-card__media"><div class="project-card__placeholder"><span>03</span></div></div>
-            <div class="project-card__body">
-              <span class="project-card__number">03</span>
-              <h3 class="project-card__title" data-i18n="projects.p3.title">Authentication Web Application</h3>
-              <p class="project-card__description" data-i18n="projects.p3.desc">Full authentication web application covering sign up, login and session handling.</p>
-              <div class="project-card__tech">
-                <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">JWT</span>
-              </div>
-              <div class="project-card__actions">
-                <a href="https://github.com/salmaay13" target="_blank" class="btn btn--ghost btn--sm"><i data-lucide="github"></i> GitHub</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section section--alt">
-      <div class="container">
-        <h2 class="section__title" data-i18n="skills.title">Skills</h2>
-        <div class="skills__grid fade-up">
-          <div class="skill-card">
-            <div class="skill-card__header"><i data-lucide="code-2"></i><h3 data-i18n="skills.cat.frontend">Frontend</h3></div>
-            <div class="skill-card__items"><span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div>
-          </div>
-          <div class="skill-card">
-            <div class="skill-card__header"><i data-lucide="server"></i><h3 data-i18n="skills.cat.backend">Backend</h3></div>
-            <div class="skill-card__items"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Python</span></div>
-          </div>
-          <div class="skill-card">
-            <div class="skill-card__header"><i data-lucide="building-2"></i><h3 data-i18n="skills.cat.erp">ERP / Business</h3></div>
-            <div class="skill-card__items"><span class="tag">Odoo</span><span class="tag">Odoo 18</span><span class="tag">XML-RPC</span><span class="tag">REST APIs</span></div>
-          </div>
-          <div class="skill-card">
-            <div class="skill-card__header"><i data-lucide="database"></i><h3 data-i18n="skills.cat.database">Database</h3></div>
-            <div class="skill-card__items"><span class="tag">PostgreSQL</span><span class="tag">Neon</span></div>
-          </div>
-          <div class="skill-card">
-            <div class="skill-card__header"><i data-lucide="wrench"></i><h3 data-i18n="skills.cat.tools">Tools</h3></div>
-            <div class="skill-card__items"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section__title" data-i18n="contact.title">Contact</h2>
-        <p class="section__subtitle" data-i18n="contact.subtitle">Let's talk about opportunities and ideas.</p>
-        <div class="contact__grid">
-          <div class="contact__info">
-            <a class="contact__info-item" href="mailto:salmaa.ayouch@gmail.com">
-              <i data-lucide="mail"></i>
-              <div><span class="about__label" data-i18n="contact.email">Email</span><p>salmaa.ayouch@gmail.com</p></div>
-            </a>
-            <a class="contact__info-item" href="https://github.com/salmaay13" target="_blank" rel="noreferrer">
-              <i data-lucide="github"></i>
-              <div><span class="about__label" data-i18n="contact.github">GitHub</span><p>https://github.com/salmaay13</p></div>
-            </a>
-            <a class="contact__info-item" href="https://www.linkedin.com/in/salma-ayouch/" target="_blank" rel="noreferrer">
-              <i data-lucide="linkedin"></i>
-              <div><span class="about__label" data-i18n="contact.linkedin">LinkedIn</span><p>https://www.linkedin.com/in/salma-ayouch/</p></div>
-            </a>
-          </div>
-
-          <form id="contact-form" class="contact__form">
-            <label>
-              <span data-i18n="contact.formName">Name</span>
-              <input type="text" id="form-name" required />
-            </label>
-            <label>
-              <span data-i18n="contact.formEmail">Email</span>
-              <input type="email" id="form-email" required />
-            </label>
-            <label>
-              <span data-i18n="contact.formMessage">Message</span>
-              <textarea id="form-message" rows="5" required></textarea>
-            </label>
-            <button type="submit" class="btn btn--primary" data-i18n="contact.send">Send Message</button>
-            <p id="contact-sent" class="contact__sent hidden" data-i18n="contact.sent">Message ready — form submitted!</p>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container footer__inner">
-      <p>© 2026 Salma Ayouch. <span data-i18n="footer.rights">All rights reserved.</span></p>
-      <div class="footer__links">
-        <a href="https://github.com/salmaay13" target="_blank"><i data-lucide="github"></i></a>
-        <a href="https://www.linkedin.com/in/salma-ayouch/" target="_blank"><i data-lucide="linkedin"></i></a>
-        <a href="mailto:salmaa.ayouch@gmail.com"><i data-lucide="mail"></i></a>
+      <div class="about-info fade-up">
+        <div class="info-item"><span class="ilabel" data-key="about_city">Education</span><span class="ival" data-key="about_edu_val">EMSI — Software Engineering (3rd Year)</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_loc">Location</span><span class="ival">Morocco</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_email">Email</span><span class="ival">salmaa.ayouch@gmail.com</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_langs">Languages</span><span class="ival" data-key="about_langs_val">French · English · Arabic</span></div>
+        <div class="info-item"><span class="ilabel">GitHub</span><span class="ival">github.com/salmaay13</span></div>
+        <div class="info-item"><span class="ilabel">LinkedIn</span><span class="ival">linkedin.com/in/salma-ayouch</span></div>
       </div>
     </div>
-  </footer>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <h2 class="sec-title" data-key="exp_title">My <em>Experience</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="exp-wrap">
+      <div class="exp-item fade-up">
+        <div class="exp-left">
+          <span class="exp-year">2026</span>
+          <span class="exp-dur" data-key="exp_dur">2 Months</span>
+        </div>
+        <div class="exp-body">
+          <h3 class="exp-role" data-key="exp_role">Software Engineering Intern</h3>
+          <span class="exp-company">Yealead</span>
+          <p class="exp-desc" data-key="exp_desc">Designed and developed a generic and reusable Approval Workflow Engine for Odoo Community 18, enabling configurable approval workflows, validation steps, tracking, and seamless business-process integration.</p>
+          <ul class="exp-tags">
+            <li>Odoo 18</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>XML-RPC / API</li>
+            <li>PostgreSQL</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <h2 class="sec-title" data-key="proj_title">My <em>Projects</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="projects">
+      <!-- Project 1 -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame">
+            <img src="assets/images/projects/approval-workflow.png" alt="Approval Workflow Engine" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="proj-ph" style="display:none">01</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p1_cat">ERP Module · Odoo 18</span>
+          <h3 class="proj-title">Approval Workflow Engine</h3>
+          <p class="proj-sub" data-key="p1_sub">Reusable Approval & Validation Module</p>
+          <p class="proj-desc" data-key="p1_desc">A generic approval workflow engine for Odoo Community 18 featuring configurable validation steps, audit trails, and process tracking across custom business workflows.</p>
+          <ul class="proj-tags">
+            <li>Odoo 18</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>XML-RPC / API</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link" data-key="link_github">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame">
+            <img src="assets/images/projects/odoo-data-quality.png" alt="Odoo Data Quality" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="proj-ph" style="display:none">02</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p2_cat">ERP Analytics · Data Quality</span>
+          <h3 class="proj-title">Odoo Data Quality</h3>
+          <p class="proj-sub" data-key="p2_sub">Data Detection & Monitoring Solution</p>
+          <p class="proj-desc" data-key="p2_desc">A targeted solution designed to detect, monitor, and improve database integrity and record quality within Odoo environments.</p>
+          <ul class="proj-tags">
+            <li>Odoo</li>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link" data-key="link_github">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame">
+            <img src="assets/images/projects/auth-app.png" alt="Authentication Web Application" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="proj-ph" style="display:none">03</div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p3_cat">Full-Stack Web App</span>
+          <h3 class="proj-title">Authentication System</h3>
+          <p class="proj-sub" data-key="p3_sub">Secure Authentication & Session Management</p>
+          <p class="proj-desc" data-key="p3_desc">Full-stack web application covering secure sign up, login, session persistence, and token-based client/server auth flows.</p>
+          <ul class="proj-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>PostgreSQL</li>
+            <li>JWT</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link" data-key="link_github">GitHub →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <h2 class="sec-title" data-key="skills_title">My <em>Skills</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card fade-up">
+        <span class="skill-ico">&lt;/&gt;</span>
+        <h3 class="skill-name" data-key="skill_front">Frontend</h3>
+        <p class="skill-text" data-key="skill_front_txt">Building clean, interactive user interfaces.</p>
+        <div class="icon-tiles">
+          <div class="icon-tile water"><span>React</span></div>
+          <div class="icon-tile water"><span>JavaScript</span></div>
+          <div class="icon-tile water"><span>HTML5</span></div>
+          <div class="icon-tile water"><span>CSS3</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <span class="skill-ico">{ }</span>
+        <h3 class="skill-name" data-key="skill_back">Backend</h3>
+        <p class="skill-text" data-key="skill_back_txt">APIs, server logic, and robust backends.</p>
+        <div class="icon-tiles">
+          <div class="icon-tile water"><span>Node.js</span></div>
+          <div class="icon-tile water"><span>Express</span></div>
+          <div class="icon-tile water"><span>Python</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <span class="skill-ico">✦</span>
+        <h3 class="skill-name" data-key="skill_erp">ERP & Database</h3>
+        <p class="skill-text" data-key="skill_erp_txt">Enterprise integration and relational databases.</p>
+        <div class="icon-tiles">
+          <div class="icon-tile water"><span>Odoo 18</span></div>
+          <div class="icon-tile water"><span>XML-RPC</span></div>
+          <div class="icon-tile water"><span>PostgreSQL</span></div>
+          <div class="icon-tile water"><span>Neon</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tools-block fade-up">
+      <span class="tools-label" data-key="tools_label">Tools & Environment</span>
+      <div class="icon-tiles tools">
+        <div class="icon-tile water"><span>Git</span></div>
+        <div class="icon-tile water"><span>GitHub</span></div>
+        <div class="icon-tile water"><span>VS Code</span></div>
+        <div class="icon-tile water"><span>Linux</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="sec-head">
+      <span class="sec-num">05</span>
+      <h2 class="sec-title" data-key="contact_title">Get In <em>Touch</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info fade-up">
+        <h3 class="contact-big" data-key="contact_big">Let's build<br>something together.</h3>
+        <p class="contact-sub" data-key="contact_sub">Open to internships, projects, and collaboration opportunities. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:salmaa.ayouch@gmail.com" class="contact-line">
+            <span class="cl-label" data-key="cl_email">Email</span>
+            <span class="cl-val">salmaa.ayouch@gmail.com</span>
+          </a>
+          <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="contact-line">
+            <span class="cl-label">GitHub</span>
+            <span class="cl-val">github.com/salmaay13</span>
+          </a>
+          <a href="https://www.linkedin.com/in/salma-ayouch/" target="_blank" rel="noopener" class="contact-line">
+            <span class="cl-label">LinkedIn</span>
+            <span class="cl-val">linkedin.com/in/salma-ayouch</span>
+          </a>
+          <div class="contact-line">
+            <span class="cl-label" data-key="cl_loc">Location</span>
+            <span class="cl-val" data-key="cl_loc_val">Morocco</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form fade-up" id="contactForm" action="https://formspree.io/f/xppwwzzn" method="POST">
+        <div class="field">
+          <input type="text" id="cName" name="name" required>
+          <label for="cName" data-key="form_name">Your Name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="cEmail" name="email" required>
+          <label for="cEmail" data-key="form_email">Your Email</label>
+        </div>
+        <div class="field">
+          <textarea id="cMsg" name="message" rows="4" required></textarea>
+          <label for="cMsg" data-key="form_msg">Your Message</label>
+        </div>
+        <button type="submit" class="btn-gold water form-btn" data-key="form_send">Send Message</button>
+      </form>
+    </div>
+
+    <footer class="site-footer">
+      <span>© 2026 Salma Ayouch</span>
+      <span data-key="footer_role">Software Engineering Student · Morocco</span>
+    </footer>
+  </section>
+
+  <!-- Success Popup Modal -->
+  <div id="success-modal" class="modal hidden">
+    <div class="modal__card">
+      <div class="modal__icon">✓</div>
+      <h3 data-key="modal_title">Message Sent!</h3>
+      <p data-key="modal_desc">Thank you for reaching out. I'll get back to you as soon as possible.</p>
+      <button id="close-modal" class="btn-gold water" data-key="modal_close">Close</button>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox">
+    <div class="lb-stage">
+      <button class="lb-close" aria-label="Close">✕</button>
+      <button class="lb-nav prev" aria-label="Previous">‹</button>
+      <img class="lb-img" src="" alt="">
+      <button class="lb-nav next" aria-label="Next">›</button>
+      <div class="lb-counter"></div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
