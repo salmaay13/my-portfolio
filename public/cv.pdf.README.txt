@@ -1,0 +1,2 @@
+Replace this folder's content with your real CV, named exactly "cv.pdf",
+so the "Download CV" button in the Hero section works.
