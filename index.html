@@ -5,23 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Salma Ayouch — Portfolio</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a0906'/><text x='50%' y='68%' font-family='Cormorant Garamond, Georgia, serif' font-size='52' font-weight='700' text-anchor='middle'><tspan fill='%23f3f1ea'>S</tspan><tspan fill='%23f2a9c2'>A</tspan></text></svg>" /
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%25' y='70%25' font-family='Georgia, serif' font-size='65' font-weight='700' text-anchor='middle'><tspan fill='%23EEEEE8'>S</tspan><tspan fill='%23C9A84C'>A</tspan></text></svg>">
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
     rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <!-- Custom Cursor Accents -->
+  <!-- custom cursor accents -->
   <div id="cursor-dot"></div>
   <div id="cursor-ring"></div>
 
-  <!-- Preloader Intro -->
+  <!-- ============ INTRO / PRELOADER ============ -->
   <div id="intro">
     <div class="intro-panel top"></div>
     <div class="intro-panel bottom"></div>
@@ -37,7 +36,7 @@
 
   <canvas id="bg-canvas"></canvas>
 
-  <!-- Navbar -->
+  <!-- ============ NAVBAR ============ -->
   <nav id="navbar">
     <a class="logo" href="#hero">S<span>A</span></a>
 
@@ -62,7 +61,7 @@
     </div>
   </nav>
 
-  <!-- Mobile Menu -->
+  <!-- ============ MOBILE MENU ============ -->
   <div id="mobile-menu">
     <ul>
       <li><a href="#hero" data-key="nav_home">Home</a></li>
@@ -74,7 +73,7 @@
     </ul>
   </div>
 
-  <!-- Hero Section -->
+  <!-- ============ HERO ============ -->
   <section id="hero">
     <div class="hero-text">
       <p class="hero-tag reveal-line"><span data-key="hero_tag">— Software Engineering Student</span></p>
@@ -82,11 +81,12 @@
         <span class="reveal-line"><span>Salma</span></span>
         <span class="reveal-line gold"><span>AYOUCH</span></span>
       </h1>
-      <p class="hero-desc reveal-line"><span data-key="hero_desc">Building modern web applications and business-oriented solutions with React, Odoo, Python, and PostgreSQL.</span></p>
+      <p class="hero-desc reveal-line"><span data-key="hero_desc">I build modern, business-oriented web applications
+          and ERP integrations with React, Odoo, Python and PostgreSQL. Based in Morocco.</span></p>
       <div class="hero-btns">
-        <a href="#projects" class="btn-gold water" data-key="hero_btn1">View My Work</a>
-        <a href="#contact" class="btn-outline water" data-key="hero_btn2">Contact Me</a>
-        <a href="cv.pdf" download class="btn-outline water" data-key="hero_cv">Download CV</a>
+        <a href="#projects" class="btn-gold water" data-key="hero_btn1">View my work</a>
+        <a href="#contact" class="btn-outline water" data-key="hero_btn2">Contact me</a>
+        <a href="assets/images/cv/CV.pdf" download class="btn-outline water" data-key="hero_cv">Download CV</a>
       </div>
     </div>
 
@@ -107,7 +107,7 @@
     <div class="scroll-hint"><span></span></div>
   </section>
 
-  <!-- About Section -->
+  <!-- ============ ABOUT ============ -->
   <section id="about">
     <div class="sec-head">
       <span class="sec-num">01</span>
@@ -116,21 +116,28 @@
     </div>
     <div class="about-wrap">
       <div class="about-text fade-up">
-        <p class="about-intro" data-key="about_intro">3rd-year Software Engineering student passionate about building reliable, business-oriented web applications.</p>
-        <p class="about-body" data-key="about_body">I enjoy working across the stack—from crafting clean interfaces to designing solid backend logic and ERP integrations with Odoo, Python, and modern web frameworks.</p>
+        <p class="about-intro" data-key="about_intro">3rd-year Software Engineering student at EMSI, passionate about
+          building reliable, business-oriented web applications.</p>
+        <p class="about-body" data-key="about_body">I enjoy working across the stack — from crafting clean interfaces
+          to designing solid backend logic and ERP integrations with Odoo, Python and modern web frameworks.</p>
       </div>
       <div class="about-info fade-up">
-        <div class="info-item"><span class="ilabel" data-key="about_city">Education</span><span class="ival" data-key="about_edu_val">EMSI — Software Engineering (3rd Year)</span></div>
-        <div class="info-item"><span class="ilabel" data-key="about_loc">Location</span><span class="ival">Morocco</span></div>
-        <div class="info-item"><span class="ilabel" data-key="about_email">Email</span><span class="ival">salmaa.ayouch@gmail.com</span></div>
-        <div class="info-item"><span class="ilabel" data-key="about_langs">Languages</span><span class="ival" data-key="about_langs_val">French · English · Arabic</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_school">Education</span><span
+            class="ival">EMSI — Software Engineering (3rd Year)</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_city">Location</span><span
+            class="ival">Morocco</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_email">Email</span><span
+            class="ival">salmaa.ayouch@gmail.com</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_langs">Languages</span><span class="ival"
+            data-key="about_langs_val">French · English · Arabic</span></div>
         <div class="info-item"><span class="ilabel">GitHub</span><span class="ival">github.com/salmaay13</span></div>
-        <div class="info-item"><span class="ilabel">LinkedIn</span><span class="ival">linkedin.com/in/salma-ayouch</span></div>
+        <div class="info-item"><span class="ilabel">LinkedIn</span><span
+            class="ival">linkedin.com/in/salma-ayouch</span></div>
       </div>
     </div>
   </section>
 
-  <!-- Experience Section -->
+  <!-- ============ EXPERIENCE ============ -->
   <section id="experience">
     <div class="sec-head">
       <span class="sec-num">02</span>
@@ -147,7 +154,9 @@
         <div class="exp-body">
           <h3 class="exp-role" data-key="exp_role">Software Engineering Intern</h3>
           <span class="exp-company">Yealead</span>
-          <p class="exp-desc" data-key="exp_desc">Designed and developed a generic and reusable Approval Workflow Engine for Odoo Community 18, enabling configurable approval workflows, validation steps, tracking, and seamless business-process integration.</p>
+          <p class="exp-desc" data-key="exp_desc">Designed and developed a generic and reusable Approval Workflow
+            Engine for Odoo Community 18, enabling configurable approval workflows, validation steps, tracking, and
+            seamless business-process integration.</p>
           <ul class="exp-tags">
             <li>Odoo 18</li>
             <li>Python</li>
@@ -161,7 +170,7 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- ============ PROJECTS ============ -->
   <section id="projects">
     <div class="sec-head">
       <span class="sec-num">03</span>
@@ -170,86 +179,112 @@
     </div>
 
     <div class="projects">
-      <!-- Project 1 -->
+
+      <!-- 1. Approval Workflow Engine -->
       <article class="project fade-up">
         <div class="proj-visual">
-          <div class="proj-frame">
-            <img src="assets/images/projects/approval-workflow.png" alt="Approval Workflow Engine" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="proj-ph" style="display:none">01</div>
+          <div class="proj-frame carousel" data-autoplay="4000">
+            <div class="car-track">
+              <img src="assets/images/projects/approval-workflow-1.png" alt="Approval Workflow Engine">
+              <img src="assets/images/projects/approval-workflow-2.png" alt="Approval Workflow Engine Configuration">
+              <img src="assets/images/projects/approval-workflow-3.png" alt="Approval Workflow Engine Tracking">
+            </div>
+            <button class="car-btn prev" aria-label="Previous">‹</button>
+            <button class="car-btn next" aria-label="Next">›</button>
+            <div class="car-dots"></div>
           </div>
         </div>
         <div class="proj-info">
           <span class="proj-cat" data-key="p1_cat">ERP Module · Odoo 18</span>
           <h3 class="proj-title">Approval Workflow Engine</h3>
-          <p class="proj-sub" data-key="p1_sub">Reusable Approval & Validation Module</p>
-          <p class="proj-desc" data-key="p1_desc">A generic approval workflow engine for Odoo Community 18 featuring configurable validation steps, audit trails, and process tracking across custom business workflows.</p>
+          <p class="proj-sub" data-key="p1_sub">Reusable Approval &amp; Validation Module</p>
+          <p class="proj-desc" data-key="p1_desc">A generic approval workflow engine for Odoo Community 18 featuring
+            configurable validation steps, audit trails, and process tracking across custom business workflows.</p>
           <ul class="proj-tags">
             <li>Odoo 18</li>
             <li>Python</li>
             <li>JavaScript</li>
             <li>XML-RPC / API</li>
             <li>PostgreSQL</li>
+            <li>Git</li>
           </ul>
           <div class="proj-links">
-            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link" data-key="link_github">GitHub →</a>
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link"
+              data-key="link_github">GitHub →</a>
           </div>
         </div>
       </article>
 
-      <!-- Project 2 -->
+      <!-- 2. Devis Generator -->
       <article class="project fade-up">
         <div class="proj-visual">
-          <div class="proj-frame">
-            <img src="assets/images/projects/odoo-data-quality.png" alt="Odoo Data Quality" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="proj-ph" style="display:none">02</div>
+          <div class="proj-frame carousel" data-autoplay="4000">
+            <div class="car-track">
+              <img src="assets/images/projects/devis-1.png" alt="Devis Generator">
+              <img src="assets/images/projects/devis-2.png" alt="Devis Generator Configuration">
+              <img src="assets/images/projects/devis-3.png" alt="Devis Generator Odoo Integration">
+            </div>
+            <button class="car-btn prev" aria-label="Previous">‹</button>
+            <button class="car-btn next" aria-label="Next">›</button>
+            <div class="car-dots"></div>
           </div>
         </div>
         <div class="proj-info">
-          <span class="proj-cat" data-key="p2_cat">ERP Analytics · Data Quality</span>
-          <h3 class="proj-title">Odoo Data Quality</h3>
-          <p class="proj-sub" data-key="p2_sub">Data Detection & Monitoring Solution</p>
-          <p class="proj-desc" data-key="p2_desc">A targeted solution designed to detect, monitor, and improve database integrity and record quality within Odoo environments.</p>
-          <ul class="proj-tags">
-            <li>Odoo</li>
-            <li>Python</li>
-            <li>PostgreSQL</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class="proj-links">
-            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link" data-key="link_github">GitHub →</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Project 3 -->
-      <article class="project fade-up">
-        <div class="proj-visual">
-          <div class="proj-frame">
-            <img src="assets/images/projects/auth-app.png" alt="Authentication Web Application" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-            <div class="proj-ph" style="display:none">03</div>
-          </div>
-        </div>
-        <div class="proj-info">
-          <span class="proj-cat" data-key="p3_cat">Full-Stack Web App</span>
-          <h3 class="proj-title">Authentication System</h3>
-          <p class="proj-sub" data-key="p3_sub">Secure Authentication & Session Management</p>
-          <p class="proj-desc" data-key="p3_desc">Full-stack web application covering secure sign up, login, session persistence, and token-based client/server auth flows.</p>
+          <span class="proj-cat" data-key="p2_cat">Full-Stack Web App · Odoo 17</span>
+          <h3 class="proj-title">Devis Generator</h3>
+          <p class="proj-sub" data-key="p2_sub">Quotation Generator &amp; Odoo Sales Integration</p>
+          <p class="proj-desc" data-key="p2_desc">A business-oriented quotation configurator with dedicated fields and
+            calculation rules that generates quotations directly in Odoo Sales through the Odoo API.</p>
           <ul class="proj-tags">
             <li>React</li>
             <li>Node.js</li>
-            <li>Express</li>
-            <li>PostgreSQL</li>
-            <li>JWT</li>
+            <li>Odoo 17</li>
+            <li>JSON-RPC / API</li>
+            <li>JavaScript</li>
           </ul>
           <div class="proj-links">
-            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link" data-key="link_github">GitHub →</a>
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link">GitHub →</a>
           </div>
         </div>
       </article>
+
+      <!-- 3. Commercial Order Management -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame carousel" data-autoplay="4000">
+            <div class="car-track">
+              <img src="assets/images/projects/commercial-1.png" alt="Commercial Order Management">
+              <img src="assets/images/projects/commercial-2.png" alt="Commercial Customers &amp; Price Lists">
+              <img src="assets/images/projects/commercial-3.png" alt="Commercial Order Builder">
+            </div>
+            <button class="car-btn prev" aria-label="Previous">‹</button>
+            <button class="car-btn next" aria-label="Next">›</button>
+            <div class="car-dots"></div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p3_cat">Sales Management · Odoo Integration</span>
+          <h3 class="proj-title">Commercial Order Management</h3>
+          <p class="proj-sub" data-key="p3_sub">Commercial Order Management</p>
+          <p class="proj-desc" data-key="p3_desc">A sales application for commercial representatives to access their
+            customers, use customer-specific price lists, build product orders, and connect the workflow with Odoo.</p>
+          <ul class="proj-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Odoo API</li>
+            <li>Price Lists</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- ============ SKILLS ============ -->
   <section id="skills">
     <div class="sec-head">
       <span class="sec-num">04</span>
@@ -263,10 +298,14 @@
         <h3 class="skill-name" data-key="skill_front">Frontend</h3>
         <p class="skill-text" data-key="skill_front_txt">Building clean, interactive user interfaces.</p>
         <div class="icon-tiles">
-          <div class="icon-tile water"><span>React</span></div>
-          <div class="icon-tile water"><span>JavaScript</span></div>
-          <div class="icon-tile water"><span>HTML5</span></div>
-          <div class="icon-tile water"><span>CSS3</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/react.png" alt="React"
+              onerror="this.style.display='none'"><span>React</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/js.png" alt="JavaScript"
+              onerror="this.style.display='none'"><span>JavaScript</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/html.png" alt="HTML5"
+              onerror="this.style.display='none'"><span>HTML5</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/css.png" alt="CSS3"
+              onerror="this.style.display='none'"><span>CSS3</span></div>
         </div>
       </div>
 
@@ -275,37 +314,48 @@
         <h3 class="skill-name" data-key="skill_back">Backend</h3>
         <p class="skill-text" data-key="skill_back_txt">APIs, server logic, and robust backends.</p>
         <div class="icon-tiles">
-          <div class="icon-tile water"><span>Node.js</span></div>
-          <div class="icon-tile water"><span>Express</span></div>
-          <div class="icon-tile water"><span>Python</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/node.png" alt="Node.js"
+              onerror="this.style.display='none'"><span>Node.js</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/express.png" alt="Express"
+              onerror="this.style.display='none'"><span>Express</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/python.png" alt="Python"
+              onerror="this.style.display='none'"><span>Python</span></div>
         </div>
       </div>
 
       <div class="skill-card fade-up">
         <span class="skill-ico">✦</span>
-        <h3 class="skill-name" data-key="skill_erp">ERP & Database</h3>
+        <h3 class="skill-name" data-key="skill_erp">ERP &amp; Database</h3>
         <p class="skill-text" data-key="skill_erp_txt">Enterprise integration and relational databases.</p>
         <div class="icon-tiles">
-          <div class="icon-tile water"><span>Odoo 18</span></div>
-          <div class="icon-tile water"><span>XML-RPC</span></div>
-          <div class="icon-tile water"><span>PostgreSQL</span></div>
-          <div class="icon-tile water"><span>Neon</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/odoo.png" alt="Odoo 18"
+              onerror="this.style.display='none'"><span>Odoo 18</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/xmlrpc.png" alt="XML-RPC"
+              onerror="this.style.display='none'"><span>XML-RPC</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/postgresql.png" alt="PostgreSQL"
+              onerror="this.style.display='none'"><span>PostgreSQL</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/neon.png" alt="Neon"
+              onerror="this.style.display='none'"><span>Neon</span></div>
         </div>
       </div>
     </div>
 
     <div class="tools-block fade-up">
-      <span class="tools-label" data-key="tools_label">Tools & Environment</span>
+      <span class="tools-label" data-key="tools_label">Tools &amp; Environment</span>
       <div class="icon-tiles tools">
-        <div class="icon-tile water"><span>Git</span></div>
-        <div class="icon-tile water"><span>GitHub</span></div>
-        <div class="icon-tile water"><span>VS Code</span></div>
-        <div class="icon-tile water"><span>Linux</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/git.png" alt="Git"
+            onerror="this.style.display='none'"><span>Git</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/github.png" alt="GitHub"
+            onerror="this.style.display='none'"><span>GitHub</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/vscode.png" alt="VS Code"
+            onerror="this.style.display='none'"><span>VS Code</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/linux.png" alt="Linux"
+            onerror="this.style.display='none'"><span>Linux</span></div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- ============ CONTACT ============ -->
   <section id="contact">
     <div class="sec-head">
       <span class="sec-num">05</span>
@@ -316,7 +366,8 @@
     <div class="contact-wrap">
       <div class="contact-info fade-up">
         <h3 class="contact-big" data-key="contact_big">Let's build<br>something together.</h3>
-        <p class="contact-sub" data-key="contact_sub">Open to internships, projects, and collaboration opportunities. Feel free to reach out.</p>
+        <p class="contact-sub" data-key="contact_sub">Open to internships, projects, and collaboration opportunities.
+          Feel free to reach out.</p>
         <div class="contact-links">
           <a href="mailto:salmaa.ayouch@gmail.com" class="contact-line">
             <span class="cl-label" data-key="cl_email">Email</span>
@@ -351,6 +402,7 @@
           <label for="cMsg" data-key="form_msg">Your Message</label>
         </div>
         <button type="submit" class="btn-gold water form-btn" data-key="form_send">Send Message</button>
+        <p class="form-note" id="formNote"></p>
       </form>
     </div>
 
@@ -360,17 +412,7 @@
     </footer>
   </section>
 
-  <!-- Success Popup Modal -->
-  <div id="success-modal" class="modal hidden">
-    <div class="modal__card">
-      <div class="modal__icon">✓</div>
-      <h3 data-key="modal_title">Message Sent!</h3>
-      <p data-key="modal_desc">Thank you for reaching out. I'll get back to you as soon as possible.</p>
-      <button id="close-modal" class="btn-gold water" data-key="modal_close">Close</button>
-    </div>
-  </div>
-
-  <!-- Lightbox Modal -->
+  <!-- ============ LIGHTBOX ============ -->
   <div id="lightbox">
     <div class="lb-stage">
       <button class="lb-close" aria-label="Close">✕</button>
@@ -381,7 +423,7 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
