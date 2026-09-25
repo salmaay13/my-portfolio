@@ -1,0 +1,2922 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+assets/
+  images/
+    icons/
+      3dsmax.png
+      AE.png
+      audition.png
+      css.png
+      docker.png
+      expres.webp
+      Git.png
+      Github.png
+      Github1.svg
+      html.png
+      illustrator.png
+      indesign.png
+      java.png
+      js.png
+      laravel.png
+      linux.webp
+      mysql.png
+      neon.webp
+      node.png
+      odoo.webp
+      photoshop.png
+      php-seeklogo.png
+      postgresql.png
+      python.png
+      react.png
+      tailwind.png
+      vercel.png
+      vercel.svg
+      vite.png
+      vray.png
+      VsCode.png
+      XAMPP.png
+      xml.webp
+    projects/
+      approval-workflow-1.png
+      approval-workflow-2.png
+      approval-workflow-3.png
+      commercial-1.png
+      commercial-2.png
+      commercial-3.png
+      devis-1.png
+      devis-2.png
+      devis-3.png
+css/
+  style.css
+js/
+  main.js
+index.html
+README.txt
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="assets/images/icons/Github1.svg">
+<svg width="98" height="96" viewBox="0 0 98 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_730_27136)">
+<path d="M41.4395 69.3848C28.8066 67.8535 19.9062 58.7617 19.9062 46.9902C19.9062 42.2051 21.6289 37.0371 24.5 33.5918C23.2559 30.4336 23.4473 23.7344 24.8828 20.959C28.7109 20.4805 33.8789 22.4902 36.9414 25.2656C40.5781 24.1172 44.4062 23.543 49.0957 23.543C53.7852 23.543 57.6133 24.1172 61.0586 25.1699C64.0254 22.4902 69.2891 20.4805 73.1172 20.959C74.457 23.543 74.6484 30.2422 73.4043 33.4961C76.4668 37.1328 78.0937 42.0137 78.0937 46.9902C78.0937 58.7617 69.1934 67.6621 56.3691 69.2891C59.623 71.3945 61.8242 75.9883 61.8242 81.252L61.8242 91.2051C61.8242 94.0762 64.2168 95.7031 67.0879 94.5547C84.4102 87.9512 98 70.6289 98 49.1914C98 22.1074 75.9883 6.69539e-07 48.9043 4.309e-07C21.8203 1.92261e-07 -1.9479e-07 22.1074 -4.3343e-07 49.1914C-6.20631e-07 70.4375 13.4941 88.0469 31.6777 94.6504C34.2617 95.6074 36.75 93.8848 36.75 91.3008L36.75 83.6445C35.4102 84.2188 33.6875 84.6016 32.1562 84.6016C25.8398 84.6016 22.1074 81.1563 19.4277 74.7441C18.375 72.1602 17.2266 70.6289 15.0254 70.3418C13.877 70.2461 13.4941 69.7676 13.4941 69.1934C13.4941 68.0449 15.4082 67.1836 17.3223 67.1836C20.0977 67.1836 22.4902 68.9063 24.9785 72.4473C26.8926 75.2227 28.9023 76.4668 31.2949 76.4668C33.6875 76.4668 35.2187 75.6055 37.4199 73.4043C39.0469 71.7773 40.291 70.3418 41.4395 69.3848Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_730_27136">
+<rect width="98" height="96" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</file>
+
+<file path="assets/images/icons/vercel.svg">
+<svg width="2048" height="407" viewBox="0 0 2048 407" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M467.444 406.664L233.722 0.190918L0 406.664H467.444ZM703.186 388.161L898.51 18.668H814.024L679.286 287.007L544.547 18.668H460.061L655.385 388.161H703.186ZM2034.31 18.668V388.162H1964.37V18.668H2034.31ZM1644.98 250.25C1644.98 221.454 1650.99 196.127 1663.01 174.27C1675.03 152.412 1691.79 135.586 1713.28 123.79C1734.77 111.994 1759.91 106.095 1788.69 106.095C1814.19 106.095 1837.14 111.647 1857.54 122.749C1877.94 133.851 1894.15 150.331 1906.17 172.188C1918.19 194.046 1924.39 220.76 1924.75 252.332V268.465H1718.75C1720.2 291.363 1726.94 309.404 1738.96 322.588C1751.35 335.425 1767.93 341.843 1788.69 341.843C1801.8 341.843 1813.83 338.374 1824.75 331.435C1835.68 324.496 1843.88 315.129 1849.34 303.333L1920.93 308.537C1912.18 334.557 1895.79 355.374 1871.75 370.986C1847.7 386.599 1820.02 394.405 1788.69 394.405C1759.91 394.405 1734.77 388.507 1713.28 376.711C1691.79 364.915 1675.03 348.088 1663.01 326.231C1650.99 304.373 1644.98 279.047 1644.98 250.25ZM1852.62 224.23C1850.07 201.678 1842.97 185.199 1831.31 174.79C1819.65 164.035 1805.45 158.657 1788.69 158.657C1769.38 158.657 1753.72 164.382 1741.7 175.831C1729.67 187.28 1722.21 203.413 1719.29 224.23H1852.62ZM1526.96 174.79C1538.62 184.158 1545.9 197.168 1548.82 213.821L1620.94 210.178C1618.39 189.015 1610.93 170.627 1598.54 155.014C1586.15 139.402 1570.13 127.433 1550.45 119.106C1531.15 110.432 1509.84 106.095 1486.52 106.095C1457.74 106.095 1432.61 111.994 1411.11 123.79C1389.62 135.586 1372.86 152.412 1360.84 174.27C1348.82 196.127 1342.81 221.454 1342.81 250.25C1342.81 279.047 1348.82 304.373 1360.84 326.231C1372.86 348.088 1389.62 364.915 1411.11 376.711C1432.61 388.507 1457.74 394.405 1486.52 394.405C1510.56 394.405 1532.42 390.068 1552.09 381.395C1571.77 372.374 1587.79 359.711 1600.18 343.404C1612.57 327.098 1620.03 308.016 1622.58 286.159L1549.91 283.036C1547.36 301.424 1540.25 315.649 1528.6 325.71C1516.94 335.425 1502.91 340.282 1486.52 340.282C1463.94 340.282 1446.45 332.476 1434.06 316.863C1421.68 301.251 1415.49 279.047 1415.49 250.25C1415.49 221.454 1421.68 199.25 1434.06 183.637C1446.45 168.025 1463.94 160.219 1486.52 160.219C1502.19 160.219 1515.66 165.076 1526.96 174.79ZM1172.15 112.328H1237.24L1239.12 165.414C1243.74 150.388 1250.16 138.719 1258.39 130.407C1270.32 118.355 1286.96 112.328 1308.29 112.328H1334.87V169.148H1307.75C1292.56 169.148 1280.09 171.214 1270.32 175.346C1260.92 179.478 1253.69 186.021 1248.63 194.975C1243.93 203.928 1241.58 215.292 1241.58 229.066V388.161H1172.15V112.328ZM871.925 174.27C859.904 196.127 853.893 221.454 853.893 250.25C853.893 279.047 859.904 304.373 871.925 326.231C883.947 348.088 900.704 364.915 922.198 376.711C943.691 388.507 968.827 394.405 997.606 394.405C1028.93 394.405 1056.62 386.599 1080.66 370.986C1104.71 355.374 1121.1 334.557 1129.84 308.537L1058.26 303.333C1052.8 315.129 1044.6 324.496 1033.67 331.435C1022.74 338.374 1010.72 341.843 997.606 341.843C976.841 341.843 960.266 335.425 947.88 322.588C935.858 309.404 929.119 291.363 927.662 268.465H1133.67V252.332C1133.3 220.76 1127.11 194.046 1115.09 172.188C1103.07 150.331 1086.86 133.851 1066.46 122.749C1046.06 111.647 1023.11 106.095 997.606 106.095C968.827 106.095 943.691 111.994 922.198 123.79C900.704 135.586 883.947 152.412 871.925 174.27ZM1040.23 174.79C1051.88 185.199 1058.99 201.678 1061.54 224.23H928.208C931.123 203.413 938.591 187.28 950.612 175.831C962.634 164.382 978.298 158.657 997.606 158.657C1014.36 158.657 1028.57 164.035 1040.23 174.79Z" fill="black"/>
+</svg>
+</file>
+
+<file path="css/style.css">
+:root {
+  --black: #06060D;
+  --dark: #0C0C16;
+  --gold: #F2A9C2;
+  --gold2: #F6C1D6;
+  --white: #EEEEE8;
+  --gray: #6A6A7A;
+  --lgray: #9A9AAA;
+  --border: rgba(242, 169, 194, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+body.locked {
+  overflow: hidden;
+}
+
+/* ================= INTRO ================= */
+#intro {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-panel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50.5%;
+  background: var(--black);
+}
+
+.intro-panel.top {
+  top: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.intro-panel.bottom {
+  bottom: 0;
+}
+
+.intro-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.intro-line {
+  width: 0;
+  height: 1px;
+  margin: 0 auto 2rem;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.intro-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: clamp(2.6rem, 8vw, 5.5rem);
+  letter-spacing: 0.06em;
+  line-height: 1.05;
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.intro-name .word {
+  display: block;
+  overflow: hidden;
+}
+
+.intro-name .word span {
+  display: block;
+  transform: translateY(110%);
+}
+
+.intro-name .w2 span {
+  color: var(--gold);
+}
+
+.intro-tag {
+  overflow: hidden;
+  margin-top: 1.2rem;
+}
+
+.intro-tag span {
+  display: block;
+  transform: translateY(110%);
+  font-size: 0.75rem;
+  letter-spacing: 0.55em;
+  color: var(--lgray);
+}
+
+/* ================= BACKGROUND ================= */
+#bg-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* ================= NAVBAR ================= */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+  padding: 1.4rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: background 0.4s, padding 0.4s;
+}
+
+#navbar.scrolled {
+  padding: 0.9rem 5rem;
+  background: rgba(6, 6, 13, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+.logo span {
+  color: var(--gold);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--lgray);
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
+/* ================= HERO ================= */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 8rem 5rem 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-tag span {
+  color: var(--gold);
+  letter-spacing: 0.3em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.hero-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 600;
+  line-height: 1.02;
+  margin: 1.2rem 0;
+}
+
+.hero-name .gold span {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.hero-desc span {
+  color: var(--lgray);
+  max-width: 480px;
+  display: block;
+  font-weight: 300;
+}
+
+.reveal-line {
+  display: block;
+  overflow: hidden;
+}
+
+.reveal-line>span {
+  display: block;
+  transform: translateY(110%);
+}
+
+.hero-btns {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+  opacity: 0;
+  transform: translateY(20px);
+  flex-wrap: wrap;
+}
+
+.btn-gold,
+.btn-outline {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0.85rem 2.1rem;
+  text-decoration: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: color 0.4s ease, border-color 0.4s ease,
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: var(--black);
+}
+
+.btn-outline {
+  border: 1px solid var(--border);
+  color: var(--white);
+}
+
+.btn-gold::before,
+.btn-outline::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: -1;
+}
+
+.btn-gold::before {
+  background: var(--black);
+}
+
+.btn-outline::before {
+  background: var(--gold);
+}
+
+.btn-gold:hover::before,
+.btn-outline:hover::before {
+  transform: scale(1, 1);
+}
+
+.btn-gold::after,
+.btn-outline::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.6s ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.btn-gold:hover::after,
+.btn-outline:hover::after {
+  left: 125%;
+}
+
+.btn-gold:hover {
+  color: var(--gold);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.btn-outline:hover {
+  color: var(--black);
+  border-color: var(--gold);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(242, 169, 194, 0.25);
+}
+
+.hero-visual {
+  position: relative;
+  opacity: 0;
+  transform: scale(0.94);
+}
+
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 115%;
+  height: 115%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(242, 169, 194, 0.18), transparent 68%);
+  filter: blur(20px);
+  z-index: -1;
+  animation: glowPulse 5s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+.hero-visual::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 118%;
+  height: 118%;
+  transform: translate(-50%, -50%);
+  border: 1px dashed rgba(242, 169, 194, 0.25);
+  border-radius: 50%;
+  z-index: -1;
+  animation: spin 26s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.photo-wrap {
+  position: relative;
+  width: min(340px, 70vw);
+  aspect-ratio: 4/5;
+  transition: transform 0.2s ease-out;
+}
+
+.photo-wrap img,
+#initials {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(35%) contrast(1.08) brightness(0.85);
+}
+
+#initials {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5rem;
+  color: var(--gold);
+  background: var(--dark);
+}
+
+.photo-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(6, 6, 13, 0.15) 0%, rgba(6, 6, 13, 0.30) 55%, rgba(6, 6, 13, 0.75) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.corner {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--gold);
+  transition: all 0.4s;
+  z-index: 2;
+}
+
+.corner.tl {
+  top: -12px;
+  left: -12px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.corner.tr {
+  top: -12px;
+  right: -12px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.corner.bl {
+  bottom: -12px;
+  left: -12px;
+  border-right: none;
+  border-top: none;
+}
+
+.corner.br {
+  bottom: -12px;
+  right: -12px;
+  border-left: none;
+  border-top: none;
+}
+
+.hero-visual:hover .corner.tl {
+  top: -20px;
+  left: -20px;
+}
+
+.hero-visual:hover .corner.tr {
+  top: -20px;
+  right: -20px;
+}
+
+.hero-visual:hover .corner.bl {
+  bottom: -20px;
+  left: -20px;
+}
+
+.hero-visual:hover .corner.br {
+  bottom: -20px;
+  right: -20px;
+}
+
+.badge {
+  position: absolute;
+  padding: 0.45rem 1rem;
+  background: rgba(12, 12, 22, 0.9);
+  border: 1px solid var(--border);
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  backdrop-filter: blur(8px);
+  z-index: 3;
+  animation: float 5s ease-in-out infinite;
+}
+
+.b1 {
+  top: 6%;
+  left: -18%;
+}
+
+.b2 {
+  top: 28%;
+  right: -20%;
+  animation-delay: 1.2s;
+}
+
+.b3 {
+  bottom: 24%;
+  left: -22%;
+  animation-delay: 2.4s;
+}
+
+.b4 {
+  bottom: 4%;
+  right: -14%;
+  animation-delay: 3.1s;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  width: 1px;
+  height: 56px;
+  background: var(--border);
+  overflow: hidden;
+  opacity: 0;
+}
+
+.scroll-hint span {
+  position: absolute;
+  top: -40%;
+  width: 100%;
+  height: 40%;
+  background: var(--gold);
+  animation: scrollDown 2s ease-in-out infinite;
+}
+
+@keyframes scrollDown {
+  to {
+    top: 110%;
+  }
+}
+
+/* ================= SECTION HEAD ================= */
+.sec-head {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.sec-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+}
+
+.sec-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sec-title em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.sec-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ================= ABOUT ================= */
+#about {
+  padding: 7rem 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.about-wrap {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 4rem;
+}
+
+.about-intro {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1.4rem;
+}
+
+.about-body {
+  color: var(--lgray);
+  font-weight: 300;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  align-content: start;
+}
+
+.info-item {
+  border-left: 2px solid var(--gold);
+  padding-left: 1rem;
+}
+
+.ilabel {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.ival {
+  font-size: 0.92rem;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ================= EXPERIENCE ================= */
+#experience {
+  padding: 7rem 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.exp-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2.5rem;
+  padding: 2.2rem 2.4rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(12, 12, 22, 0.5), rgba(6, 6, 13, 0.3));
+  transition: border-color 0.4s, transform 0.4s;
+}
+
+.exp-item:hover {
+  border-color: rgba(242, 169, 194, 0.4);
+  transform: translateX(6px);
+}
+
+.exp-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border-left: 2px solid var(--gold);
+  padding-left: 1.2rem;
+  height: fit-content;
+}
+
+.exp-year {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.exp-dur {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.exp-role {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.exp-company {
+  color: var(--gold);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.exp-desc {
+  color: var(--lgray);
+  font-weight: 300;
+  margin: 1rem 0 1.4rem;
+  max-width: 640px;
+}
+
+.exp-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.exp-tags li {
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--border);
+  color: var(--lgray);
+  border-radius: 3px;
+}
+
+/* ================= PROJECTS ================= */
+#projects {
+  padding: 7rem 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin-top: 2rem;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.project:nth-child(even) .proj-visual {
+  order: 2;
+}
+
+.proj-visual {
+  display: flex;
+}
+
+.proj-frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(242, 169, 194, 0.25);
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(12, 12, 22, 0.7), rgba(6, 6, 13, 0.95));
+  padding: 10px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  transition: border-color 0.4s, box-shadow 0.4s;
+}
+
+.project:hover .proj-frame {
+  border-color: rgba(242, 169, 194, 0.5);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), 0 0 30px rgba(242, 169, 194, 0.08);
+}
+
+.proj-frame::before,
+.proj-frame::after {
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--gold);
+  z-index: 4;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.proj-frame::before {
+  top: 8px;
+  left: 8px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.proj-frame::after {
+  bottom: 8px;
+  right: 8px;
+  border-left: none;
+  border-top: none;
+}
+
+.proj-frame>img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  filter: brightness(0.96);
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), filter 0.6s;
+}
+
+.project:hover .proj-frame>img {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+
+.proj-ph {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  color: var(--gold);
+  background: linear-gradient(135deg, var(--dark), var(--black));
+  border-radius: 4px;
+}
+
+.proj-frame.carousel {
+  overflow: hidden;
+  padding: 0;
+}
+
+/* ---- CAROUSEL ---- */
+.car-track {
+  width: 100%;
+  display: flex;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.car-track img {
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.car-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  background: rgba(6, 6, 13, 0.75);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 1;
+  z-index: 5;
+  backdrop-filter: blur(6px);
+  transition: background 0.3s, color 0.3s;
+  border-radius: 3px;
+}
+
+.car-btn:hover {
+  background: var(--gold);
+  color: var(--black);
+}
+
+.car-btn.prev {
+  left: 14px;
+}
+
+.car-btn.next {
+  right: 14px;
+}
+
+.car-dots {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 7px;
+  z-index: 5;
+}
+
+.car-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.car-dot.active {
+  background: var(--gold);
+  transform: scale(1.3);
+}
+
+.proj-cat {
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.proj-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  margin: 0.6rem 0 0.2rem;
+}
+
+.proj-sub {
+  color: var(--white);
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.proj-desc {
+  color: var(--lgray);
+  font-weight: 300;
+  margin-bottom: 1.6rem;
+}
+
+.proj-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.proj-tags li {
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--border);
+  color: var(--lgray);
+  border-radius: 3px;
+}
+
+.proj-links {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.proj-link {
+  position: relative;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 2px;
+  transition: color 0.3s;
+}
+
+.proj-link:hover {
+  color: var(--gold);
+}
+
+/* ================= SKILLS ================= */
+#skills {
+  padding: 7rem 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.skill-card {
+  padding: 2.4rem 2rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(12, 12, 22, 0.5), rgba(6, 6, 13, 0.3));
+  transition: border-color 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.skill-card:hover {
+  border-color: rgba(242, 169, 194, 0.4);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.skill-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  color: var(--gold);
+  border: 1px solid rgba(242, 169, 194, 0.3);
+  border-radius: 8px;
+  margin-bottom: 1.4rem;
+}
+
+.skill-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.skill-text {
+  color: var(--lgray);
+  font-weight: 300;
+  font-size: 0.92rem;
+  margin-bottom: 1.4rem;
+}
+
+.tools-block {
+  margin-top: 2.5rem;
+  padding: 2rem 2.4rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(12, 12, 22, 0.5), rgba(6, 6, 13, 0.3));
+}
+
+.tools-block .tools-label {
+  display: block;
+  margin-bottom: 1.4rem;
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* ================= ICON TILES (skills/tools) ================= */
+.icon-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.icon-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  width: 74px;
+  padding: 0.8rem 0.4rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(12, 12, 22, 0.4);
+  transition: border-color 0.3s, transform 0.3s, background 0.3s, box-shadow 0.3s;
+}
+
+.icon-tile:hover,
+.icon-tile.water:hover {
+  border-color: var(--gold);
+  transform: translateY(-4px) scale(1.03);
+  background: rgba(12, 12, 22, 0.7);
+  box-shadow: 0 8px 25px rgba(242, 169, 194, 0.2);
+}
+
+.icon-tile img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.icon-tile:hover img {
+  transform: scale(1.1);
+}
+
+.icon-tile span {
+  font-size: 0.66rem;
+  text-align: center;
+  color: var(--lgray);
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.icon-tile:hover span {
+  color: var(--gold);
+}
+
+.icon-tiles.tools {
+  gap: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .icon-tile {
+    width: 64px;
+  }
+}
+
+/* ================= CONTACT ================= */
+#contact {
+  padding: 7rem 5rem 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-big {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.contact-sub {
+  color: var(--lgray);
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  max-width: 400px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-line {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-decoration: none;
+  border-left: 2px solid var(--gold);
+  padding-left: 1rem;
+  transition: transform 0.3s;
+}
+
+a.contact-line:hover {
+  transform: translateX(5px);
+}
+
+.cl-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.cl-val {
+  font-size: 0.95rem;
+  color: var(--white);
+}
+
+/* form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.field {
+  position: relative;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--white);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 0;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+.field textarea {
+  min-height: 90px;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-bottom-color: var(--gold);
+}
+
+.field label {
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  color: var(--gray);
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.field input:focus+label,
+.field input:valid+label,
+.field textarea:focus+label,
+.field textarea:valid+label {
+  top: -0.9rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.form-btn {
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+  font-family: inherit;
+}
+
+.form-note {
+  font-size: 0.85rem;
+  color: var(--gold);
+  min-height: 1rem;
+}
+
+/* footer */
+.site-footer {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--gray);
+  letter-spacing: 0.05em;
+}
+
+/* ================= LIGHTBOX POPUP ================= */
+.proj-frame>img,
+.car-track img {
+  cursor: zoom-in;
+}
+
+#lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(4, 4, 10, 0.92);
+  backdrop-filter: blur(14px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  padding: 4vh 5vw;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#lightbox.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lb-stage {
+  position: relative;
+  max-width: 92vw;
+  max-height: 88vh;
+  border: 1px solid rgba(242, 169, 194, 0.35);
+  border-radius: 8px;
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(12, 12, 22, 0.9), rgba(6, 6, 13, 0.98));
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.7), 0 0 40px rgba(242, 169, 194, 0.08);
+  transform: scale(0.94);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#lightbox.open .lb-stage {
+  transform: scale(1);
+}
+
+.lb-stage::before,
+.lb-stage::after {
+  content: '';
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--gold);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.lb-stage::before {
+  top: 6px;
+  left: 6px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.lb-stage::after {
+  bottom: 6px;
+  right: 6px;
+  border-left: none;
+  border-top: none;
+}
+
+.lb-img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(88vh - 24px);
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+}
+
+.lb-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  background: var(--gold);
+  color: var(--black);
+  border-radius: 50%;
+  font-size: 1.3rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.lb-close:hover {
+  transform: rotate(90deg) scale(1.1);
+}
+
+.lb-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(242, 169, 194, 0.4);
+  background: rgba(6, 6, 13, 0.6);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.6rem;
+  line-height: 1;
+  border-radius: 4px;
+  backdrop-filter: blur(6px);
+  transition: background 0.3s, color 0.3s;
+}
+
+.lb-nav:hover {
+  background: var(--gold);
+  color: var(--black);
+}
+
+.lb-nav.prev {
+  left: -66px;
+}
+
+.lb-nav.next {
+  right: -66px;
+}
+
+.lb-counter {
+  position: absolute;
+  bottom: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  color: var(--lgray);
+}
+
+@media (max-width: 900px) {
+  .lb-nav.prev {
+    left: 8px;
+  }
+
+  .lb-nav.next {
+    right: 8px;
+  }
+
+  .lb-nav {
+    width: 40px;
+    height: 40px;
+    background: rgba(6, 6, 13, 0.8);
+  }
+
+  .lb-close {
+    top: 6px;
+    right: 6px;
+  }
+}
+
+/* ================= LANGUAGE TOGGLE ================= */
+#langToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+#langToggle:hover {
+  border-color: rgba(242, 169, 194, 0.4);
+}
+
+.lang-opt {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  color: var(--gray);
+  transition: color 0.3s;
+}
+
+.lang-opt.active {
+  color: var(--gold);
+}
+
+.lang-sep {
+  color: var(--gray);
+  font-size: 0.78rem;
+}
+
+/* ================= CUSTOM CURSOR ================= */
+@media (pointer: fine) {
+  #cursor-dot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+  }
+
+  #cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(242, 169, 194, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s, background 0.3s, border-color 0.3s;
+  }
+
+  #cursor-ring.hover {
+    width: 46px;
+    height: 46px;
+    background: rgba(242, 169, 194, 0.08);
+    border-color: var(--gold);
+  }
+}
+
+/* ================= NAV RIGHT + HAMBURGER ================= */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 42px;
+  height: 42px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0 10px;
+  transition: border-color 0.3s;
+}
+
+#hamburger:hover {
+  border-color: rgba(242, 169, 194, 0.4);
+}
+
+#hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--gold);
+  transition: transform 0.35s ease, opacity 0.3s ease;
+}
+
+#hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+#hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ================= MOBILE MENU OVERLAY ================= */
+#mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 190;
+  background: rgba(6, 6, 13, 0.98);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#mobile-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#mobile-menu ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+#mobile-menu a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  color: var(--white);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+#mobile-menu.open a {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.5s, transform 0.5s, color 0.3s;
+}
+
+#mobile-menu.open li:nth-child(1) a {
+  transition-delay: 0.08s;
+}
+
+#mobile-menu.open li:nth-child(2) a {
+  transition-delay: 0.14s;
+}
+
+#mobile-menu.open li:nth-child(3) a {
+  transition-delay: 0.20s;
+}
+
+#mobile-menu.open li:nth-child(4) a {
+  transition-delay: 0.26s;
+}
+
+#mobile-menu.open li:nth-child(5) a {
+  transition-delay: 0.32s;
+}
+
+#mobile-menu.open li:nth-child(6) a {
+  transition-delay: 0.38s;
+}
+
+#mobile-menu a:hover {
+  color: var(--gold);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1200px) {
+  #navbar {
+    padding: 1.4rem 3rem;
+  }
+
+  #hero,
+  #about,
+  #experience,
+  #projects,
+  #skills,
+  #contact {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .nav-links {
+    gap: 1.6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  #hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    padding: 8rem 2rem 4rem;
+  }
+
+  .hero-desc span {
+    margin: 0 auto;
+  }
+
+  .hero-btns {
+    justify-content: center;
+  }
+
+  .about-wrap {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-wrap {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .project:nth-child(even) .proj-visual {
+    order: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  #navbar {
+    padding: 1.1rem 1.2rem;
+  }
+
+  #navbar.scrolled {
+    padding: 0.8rem 1.2rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  #hero,
+  #about,
+  #experience,
+  #projects,
+  #skills,
+  #contact {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  #hero {
+    padding-top: 7rem;
+  }
+
+  .hero-name {
+    font-size: clamp(2.6rem, 12vw, 4rem);
+  }
+
+  .hero-btns {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-btns a {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .sec-title {
+    font-size: 1.9rem;
+  }
+
+  .sec-head {
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .photo-wrap {
+    width: min(280px, 80vw);
+  }
+
+  .badge {
+    font-size: 0.68rem;
+    padding: 0.35rem 0.7rem;
+  }
+
+  .b1 {
+    left: -2%;
+  }
+
+  .b2 {
+    right: -2%;
+  }
+
+  .b3 {
+    left: -4%;
+  }
+
+  .b4 {
+    right: 0%;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .exp-item {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    padding: 1.6rem;
+  }
+
+  .exp-left {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.8rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .skill-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .icon-tile {
+    width: calc(33.333% - 0.6rem);
+  }
+
+  .tools-block {
+    padding: 1.6rem 1.4rem;
+  }
+
+  .icon-tiles.tools .icon-tile {
+    width: calc(33.333% - 0.6rem);
+  }
+
+  .proj-title {
+    font-size: 2rem;
+  }
+
+  .proj-tags {
+    gap: 0.4rem;
+  }
+
+  .contact-big {
+    font-size: 2rem;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  #mobile-menu a {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .icon-tile {
+    width: calc(50% - 0.5rem);
+  }
+
+  .icon-tiles.tools .icon-tile {
+    width: calc(50% - 0.5rem);
+  }
+
+  .hero-name {
+    font-size: 2.4rem;
+  }
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#navbar {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+</file>
+
+<file path="js/main.js">
+// ============ ANIMATED BACKGROUND ============
+const canvas = document.getElementById('bg-canvas');
+const ctx = canvas.getContext('2d');
+let W, H, dots = [], orbs = [], symbols = [], orbits = [], t = 0;
+let shootingStars = [];
+
+function resize() {
+  W = canvas.width = innerWidth;
+  H = canvas.height = innerHeight;
+}
+resize();
+addEventListener('resize', resize);
+
+for (let i = 0; i < 45; i++) {
+  dots.push({
+    x: Math.random() * innerWidth,
+    y: Math.random() * innerHeight,
+    r: Math.random() * 1.4 + 0.4,
+    vx: (Math.random() - 0.5) * 0.2,
+    vy: (Math.random() - 0.5) * 0.2,
+    a: Math.random() * 0.4 + 0.1,
+    tw: Math.random() * Math.PI * 2,
+    tws: Math.random() * 0.02 + 0.008
+  });
+}
+
+for (let i = 0; i < 4; i++) {
+  orbs.push({
+    x: Math.random() * innerWidth,
+    y: Math.random() * innerHeight,
+    r: Math.random() * 120 + 90,
+    ox: Math.random() * 1000,
+    oy: Math.random() * 1000,
+    gold: Math.random() > 0.5
+  });
+}
+
+const glyphs = [
+  '<>', '</>', '<div>', '</div>', '<span>', '<h1>', '<p>', '<a>', '/>',
+  '{ }', '( )', '[ ]', '=>', '===', '!==', '&&', '||',
+  ';', '#', '::', '...', 'const', 'let', 'function', 'return',
+  'import', 'export', 'async', 'await', 'null', 'true', 'false',
+  '<React/>', 'Odoo', 'Python', '{}', '() =>'
+];
+for (let i = 0; i < 14; i++) {
+  symbols.push({
+    x: Math.random() * innerWidth,
+    y: Math.random() * innerHeight,
+    txt: glyphs[Math.floor(Math.random() * glyphs.length)],
+    size: Math.random() * 9 + 11,
+    vx: (Math.random() - 0.5) * 0.35,
+    vy: (Math.random() - 0.5) * 0.35,
+    rot: Math.random() * Math.PI * 2,
+    rs: (Math.random() - 0.5) * 0.006,
+    a: Math.random() * 0.08 + 0.09,
+    gold: Math.random() > 0.4
+  });
+}
+
+for (let i = 0; i < 3; i++) {
+  orbits.push({
+    x: Math.random() * innerWidth,
+    y: Math.random() * innerHeight,
+    driftX: (Math.random() - 0.5) * 0.1,
+    driftY: (Math.random() - 0.5) * 0.1,
+    rings: [
+      { r: 30 + Math.random() * 15, speed: 0.006 + Math.random() * 0.004, angle: Math.random() * Math.PI * 2, dot: 2 },
+      { r: 55 + Math.random() * 20, speed: 0.003 + Math.random() * 0.003, angle: Math.random() * Math.PI * 2, dot: 2.6 }
+    ]
+  });
+}
+
+function newStar() {
+  return {
+    x: Math.random() * W,
+    y: -10,
+    vx: (Math.random() - 0.5) * 2 - 1,
+    vy: Math.random() * 2 + 2,
+    life: 1
+  };
+}
+
+function draw() {
+  t += 0.005;
+  ctx.clearRect(0, 0, W, H);
+
+  for (const o of orbs) {
+    const x = o.x + Math.sin(t + o.ox) * 40;
+    const y = o.y + Math.cos(t * 0.8 + o.oy) * 40;
+    const g = ctx.createRadialGradient(x, y, 0, x, y, o.r);
+    const col = o.gold ? '242,169,194' : '91,184,240';
+    g.addColorStop(0, `rgba(${col},0.05)`);
+    g.addColorStop(1, `rgba(${col},0)`);
+    ctx.fillStyle = g;
+    ctx.beginPath();
+    ctx.arc(x, y, o.r, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  for (const os of orbits) {
+    os.x += os.driftX; os.y += os.driftY;
+    if (os.x < -80) os.x = W + 80; if (os.x > W + 80) os.x = -80;
+    if (os.y < -80) os.y = H + 80; if (os.y > H + 80) os.y = -80;
+
+    ctx.beginPath();
+    ctx.arc(os.x, os.y, 2.2, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(246,193,214,0.35)';
+    ctx.fill();
+
+    for (const ring of os.rings) {
+      ring.angle += ring.speed;
+      ctx.beginPath();
+      ctx.arc(os.x, os.y, ring.r, 0, Math.PI * 2);
+      ctx.strokeStyle = 'rgba(242,169,194,0.06)';
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      const px = os.x + Math.cos(ring.angle) * ring.r;
+      const py = os.y + Math.sin(ring.angle) * ring.r;
+      ctx.beginPath();
+      ctx.arc(px, py, ring.dot, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(242,169,194,0.3)';
+      ctx.fill();
+    }
+  }
+
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  for (const s of symbols) {
+    s.x += s.vx; s.y += s.vy; s.rot += s.rs;
+    if (s.x < -60) s.x = W + 60; if (s.x > W + 60) s.x = -60;
+    if (s.y < -60) s.y = H + 60; if (s.y > H + 60) s.y = -60;
+    const col = s.gold ? '242,169,194' : '154,154,170';
+    ctx.save();
+    ctx.translate(s.x, s.y);
+    ctx.rotate(s.rot);
+    ctx.font = `${s.size}px monospace`;
+    ctx.fillStyle = `rgba(${col},${s.a})`;
+    ctx.fillText(s.txt, 0, 0);
+    ctx.restore();
+  }
+
+  for (const p of dots) {
+    p.x += p.vx; p.y += p.vy;
+    p.tw += p.tws;
+    if (p.x < 0) p.x = W; if (p.x > W) p.x = 0;
+    if (p.y < 0) p.y = H; if (p.y > H) p.y = 0;
+    const twinkle = p.a * (0.5 + 0.5 * Math.sin(p.tw));
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(242,169,194,${twinkle})`;
+    ctx.fill();
+  }
+
+  if (Math.random() < 0.004) shootingStars.push(newStar());
+  for (let i = shootingStars.length - 1; i >= 0; i--) {
+    const s = shootingStars[i];
+    s.x += s.vx; s.y += s.vy; s.life -= 0.02;
+    ctx.strokeStyle = `rgba(246,193,214,${Math.max(s.life, 0) * 0.7})`;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(s.x, s.y);
+    ctx.lineTo(s.x - s.vx * 6, s.y - s.vy * 6);
+    ctx.stroke();
+    if (s.life <= 0) shootingStars.splice(i, 1);
+  }
+
+  requestAnimationFrame(draw);
+}
+draw();
+
+// ============ INTRO PRELOADER TIMELINE ============
+document.body.classList.add('locked');
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const gsapReady = typeof gsap !== 'undefined';
+
+function showEverythingInstantly() {
+  document.getElementById('intro').style.display = 'none';
+  document.querySelectorAll('#navbar, .hero-btns, .hero-visual, .scroll-hint').forEach(el => {
+    el.style.opacity = '1';
+    el.style.transform = 'none';
+  });
+  document.querySelectorAll('.reveal-line > span').forEach(el => el.style.transform = 'none');
+  document.body.classList.remove('locked');
+}
+
+if (!gsapReady) {
+  // GSAP failed to load (e.g. no internet access to the CDN) — skip the
+  // animated intro instead of letting a missing library break the whole page.
+  showEverythingInstantly();
+} else if (reduced) {
+  gsap.set('#intro', { display: 'none' });
+  gsap.set('#navbar, .hero-btns, .hero-visual, .scroll-hint', { opacity: 1, y: 0, scale: 1 });
+  gsap.set('.reveal-line > span', { y: 0 });
+  document.body.classList.remove('locked');
+} else {
+  try {
+    const tl = gsap.timeline({
+      defaults: { ease: 'power3.out' },
+      onComplete: () => document.body.classList.remove('locked')
+    });
+    tl
+      .to('.intro-line', { width: 220, duration: 0.7 })
+      .to('.intro-name .word span', { y: 0, duration: 0.9, stagger: 0.15 }, '-=0.2')
+      .to('.intro-tag span', { y: 0, duration: 0.7 }, '-=0.4')
+      .to({}, { duration: 0.8 })
+      .to('.intro-content', { y: -60, opacity: 0, duration: 0.5, ease: 'power2.in' })
+      .to('.intro-panel.top', { yPercent: -100, duration: 0.9, ease: 'power4.inOut' }, '-=0.1')
+      .to('.intro-panel.bottom', { yPercent: 100, duration: 0.9, ease: 'power4.inOut' }, '<')
+      .set('#intro', { display: 'none' })
+      .to('#navbar', { opacity: 1, y: 0, duration: 0.6 }, '-=0.5')
+      .to('.reveal-line > span', { y: 0, duration: 0.9, stagger: 0.12 }, '-=0.5')
+      .to('.hero-btns', { opacity: 1, y: 0, duration: 0.7 }, '-=0.4')
+      .to('.hero-visual', { opacity: 1, scale: 1, duration: 0.9 }, '-=0.8')
+      .to('.scroll-hint', { opacity: 1, duration: 0.6 }, '-=0.3');
+  } catch (err) {
+    showEverythingInstantly();
+  }
+}
+
+// ============ NAVBAR ON SCROLL ============
+addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', scrollY > 60);
+});
+
+// ============ PHOTO PARALLAX (mouse) ============
+const visual = document.getElementById('heroVisual');
+const wrap = document.querySelector('.photo-wrap');
+if (visual && !reduced) {
+  visual.addEventListener('mousemove', e => {
+    const r = visual.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5;
+    const y = (e.clientY - r.top) / r.height - 0.5;
+    wrap.style.transform = `rotateY(${x * 10}deg) rotateX(${-y * 10}deg)`;
+  });
+  visual.addEventListener('mouseleave', () => wrap.style.transform = '');
+}
+
+// ============ SCROLL REVEAL ============
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) en.target.classList.add('visible'); });
+}, { threshold: 0.15 });
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+// ============ CAROUSEL ============
+document.querySelectorAll('.proj-frame.carousel').forEach(car => {
+  const track = car.querySelector('.car-track');
+  const slides = track.querySelectorAll('img');
+  const dotsWrap = car.querySelector('.car-dots');
+  const delay = parseInt(car.dataset.autoplay) || 4000;
+  let index = 0, timer;
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('span');
+    dot.className = 'car-dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => { go(i); reset(); });
+    dotsWrap.appendChild(dot);
+  });
+  const dots = dotsWrap.querySelectorAll('.car-dot');
+
+  function go(i) {
+    index = (i + slides.length) % slides.length;
+    track.style.transform = `translateX(-${index * 100}%)`;
+    dots.forEach((d, di) => d.classList.toggle('active', di === index));
+  }
+  function next() { go(index + 1); }
+  function prev() { go(index - 1); }
+  function reset() { clearInterval(timer); timer = setInterval(next, delay); }
+
+  car.querySelector('.next').addEventListener('click', () => { next(); reset(); });
+  car.querySelector('.prev').addEventListener('click', () => { prev(); reset(); });
+
+  car.addEventListener('mouseenter', () => clearInterval(timer));
+  car.addEventListener('mouseleave', reset);
+
+  // swipe support
+  let touchStart = 0;
+  car.addEventListener('touchstart', e => { touchStart = e.changedTouches[0].screenX; clearInterval(timer); }, { passive: true });
+  car.addEventListener('touchend', e => {
+    const dist = e.changedTouches[0].screenX - touchStart;
+    if (Math.abs(dist) > 50) { dist < 0 ? next() : prev(); }
+    reset();
+  }, { passive: true });
+
+  reset();
+});
+
+// ============ LIGHTBOX ============
+(function () {
+  const lb = document.getElementById('lightbox');
+  if (!lb) return;
+  const lbImg = lb.querySelector('.lb-img');
+  const counter = lb.querySelector('.lb-counter');
+  const btnPrev = lb.querySelector('.lb-nav.prev');
+  const btnNext = lb.querySelector('.lb-nav.next');
+  const btnClose = lb.querySelector('.lb-close');
+
+  let group = [];
+  let pos = 0;
+
+  function open(imgs, index) {
+    group = imgs;
+    pos = index;
+    render();
+    lb.classList.add('open');
+    document.body.classList.add('locked');
+  }
+  function render() {
+    lbImg.src = group[pos];
+    const multi = group.length > 1;
+    btnPrev.style.display = multi ? 'block' : 'none';
+    btnNext.style.display = multi ? 'block' : 'none';
+    counter.style.display = multi ? 'block' : 'none';
+    if (multi) counter.textContent = `${pos + 1} / ${group.length}`;
+  }
+  function close() {
+    lb.classList.remove('open');
+    document.body.classList.remove('locked');
+  }
+  function next() { pos = (pos + 1) % group.length; render(); }
+  function prev() { pos = (pos - 1 + group.length) % group.length; render(); }
+
+  document.querySelectorAll('.proj-frame:not(.carousel) > img').forEach(img => {
+    img.addEventListener('click', () => open([img.src], 0));
+  });
+
+  document.querySelectorAll('.proj-frame.carousel').forEach(car => {
+    const imgs = [...car.querySelectorAll('.car-track img')];
+    const srcs = imgs.map(i => i.src);
+    imgs.forEach((img, i) => img.addEventListener('click', () => open(srcs, i)));
+  });
+
+  btnNext.addEventListener('click', next);
+  btnPrev.addEventListener('click', prev);
+  btnClose.addEventListener('click', close);
+  lb.addEventListener('click', e => { if (e.target === lb) close(); });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowRight') next();
+    if (e.key === 'ArrowLeft') prev();
+  });
+})();
+
+// ============ CONTACT FORM (Formspree) ============
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', async e => {
+    e.preventDefault();
+    const note = document.getElementById('formNote');
+    const btn = contactForm.querySelector('button[type="submit"]');
+    const original = btn.textContent;
+    btn.textContent = 'Sending…';
+    note.textContent = '';
+
+    try {
+      const res = await fetch(contactForm.action, {
+        method: 'POST',
+        body: new FormData(contactForm),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        note.style.color = 'var(--gold)';
+        note.textContent = "Message sent! I'll get back to you soon.";
+        contactForm.reset();
+      } else {
+        note.style.color = '#e57373';
+        note.textContent = 'Something went wrong. Please try again.';
+      }
+    } catch (err) {
+      note.style.color = '#e57373';
+      note.textContent = 'Network error. Please try again.';
+    } finally {
+      btn.textContent = original;
+    }
+  });
+}
+
+// ============ CUSTOM CURSOR ============
+(function () {
+  if (!matchMedia('(pointer: fine)').matches) return;
+  const dot = document.getElementById('cursor-dot');
+  const ring = document.getElementById('cursor-ring');
+  if (!dot || !ring) return;
+
+  let mx = innerWidth / 2, my = innerHeight / 2;
+  let rx = mx, ry = my;
+
+  addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    dot.style.left = mx + 'px';
+    dot.style.top = my + 'px';
+  });
+  function loop() {
+    rx += (mx - rx) * 0.18;
+    ry += (my - ry) * 0.18;
+    ring.style.left = rx + 'px';
+    ring.style.top = ry + 'px';
+    requestAnimationFrame(loop);
+  }
+  loop();
+
+  document.querySelectorAll('a, button, .icon-tile, .car-dot, .proj-frame img, .car-track img').forEach(el => {
+    el.addEventListener('mouseenter', () => ring.classList.add('hover'));
+    el.addEventListener('mouseleave', () => ring.classList.remove('hover'));
+  });
+})();
+
+// ============ LANGUAGE TOGGLE (EN / FR) ============
+(function () {
+  const translations = {
+    nav_home: ["Home", "Accueil"],
+    nav_about: ["About", "À propos"],
+    nav_exp: ["Experience", "Expérience"],
+    nav_proj: ["Projects", "Projets"],
+    nav_skills: ["Skills", "Compétences"],
+    nav_contact: ["Contact", "Contact"],
+
+    hero_tag: ["— Software Engineering Student", "— Étudiante en Ingénierie Logicielle"],
+    hero_desc: ["I build modern, business-oriented web applications and ERP integrations with React, Odoo, Python and PostgreSQL. Based in Morocco.", "Je conçois des applications web modernes et orientées métier ainsi que des intégrations ERP avec React, Odoo, Python et PostgreSQL. Basée au Maroc."],
+    hero_btn1: ["View my work", "Voir mes projets"],
+    hero_btn2: ["Contact me", "Me contacter"],
+    hero_cv: ["Download CV", "Télécharger CV"],
+
+    about_title: ["About <em>Me</em>", "À <em>propos</em>"],
+    about_intro: ["3rd-year Software Engineering student at EMSI, passionate about building reliable, business-oriented web applications.", "Étudiante en 3ème année d'Ingénierie Logicielle à l'EMSI, passionnée par la création d'applications web fiables et orientées métier."],
+    about_body: ["I enjoy working across the stack — from crafting clean interfaces to designing solid backend logic and ERP integrations with Odoo, Python and modern web frameworks.", "J'aime travailler sur l'ensemble de la pile technique — de la conception d'interfaces claires à la logique backend et aux intégrations ERP avec Odoo, Python et des frameworks web modernes."],
+    about_city: ["Location", "Localisation"],
+    about_email: ["Email", "Email"],
+    about_school: ["Education", "Formation"],
+    about_langs: ["Languages", "Langues"],
+    about_langs_val: ["French · English · Arabic", "Français · Anglais · Arabe"],
+
+    exp_title: ["My <em>Experience</em>", "Mon <em>Expérience</em>"],
+    exp_dur: ["2 Months", "2 Mois"],
+    exp_role: ["Software Engineering Intern", "Stagiaire Ingénieure Logiciel"],
+    exp_desc: ["Designed and developed a generic and reusable Approval Workflow Engine for Odoo Community 18, enabling configurable approval workflows, validation steps, tracking, and seamless business-process integration.", "Conception et développement d'un moteur de workflow d'approbation générique et réutilisable pour Odoo Community 18, permettant des workflows configurables, des étapes de validation, un suivi et une intégration aux processus métier."],
+
+    proj_title: ["My <em>Projects</em>", "Mes <em>Projets</em>"],
+
+    p1_cat: ["ERP Module · Odoo 18", "Module ERP · Odoo 18"],
+    p1_sub: ["Reusable Approval & Validation Module", "Module d'Approbation & Validation Réutilisable"],
+    p1_desc: ["A generic approval workflow engine for Odoo Community 18 featuring configurable validation steps, audit trails, and process tracking across custom business workflows.", "Moteur de workflow d'approbation générique pour Odoo Community 18 avec étapes de validation configurables, suivi d'audit et intégration métier."],
+
+    p2_cat: ["Full-Stack Web App · Odoo 17", "Application Web Full-Stack · Odoo 17"],
+    p2_sub: ["Quotation Generator & Odoo Sales Integration", "Générateur de Devis & Intégration Odoo Sales"],
+    p2_desc: ["A business-oriented quotation configurator with dedicated fields and calculation rules that generates quotations directly in Odoo Sales through the Odoo API.", "Un configurateur de devis orienté métier avec des champs dédiés et des règles de calcul qui génère des devis directement dans Odoo Sales via l'API Odoo."],
+
+    p3_cat: ["Sales Management · Odoo Integration", "Gestion Commerciale · Intégration Odoo"],
+    p3_sub: ["Commercial Order Management", "Gestion des Commandes Commerciales"],
+    p3_desc: ["A sales application for commercial representatives to access their customers, use customer-specific price lists, build product orders, and connect the workflow with Odoo.", "Une application de vente pour les représentants commerciaux permettant d'accéder à leurs clients, d'utiliser des listes de prix spécifiques, de construire des commandes de produits et de connecter le tout à Odoo."],
+
+    link_github: ["GitHub →", "GitHub →"],
+
+    skills_title: ["My <em>Skills</em>", "Mes <em>Compétences</em>"],
+    skill_front: ["Frontend", "Frontend"],
+    skill_front_txt: ["Building clean, interactive user interfaces.", "Création d'interfaces claires et interactives."],
+    skill_back: ["Backend", "Backend"],
+    skill_back_txt: ["APIs, server logic, and robust backends.", "APIs, logique serveur et backends solides."],
+    skill_erp: ["ERP & Database", "ERP & Bases de données"],
+    skill_erp_txt: ["Enterprise integration and relational databases.", "Intégration d'entreprise et bases de données relationnelles."],
+    tools_label: ["Tools & Environment", "Outils & Environnement"],
+
+    contact_title: ["Get In <em>Touch</em>", "Me <em>Contacter</em>"],
+    contact_big: ["Let's build<br>something together.", "Créons<br>quelque chose ensemble."],
+    contact_sub: ["Open to internships, projects, and collaboration opportunities. Feel free to reach out.", "Ouverte aux opportunités de stage, projets et collaborations. N'hésitez pas à me contacter."],
+    cl_email: ["Email", "Email"],
+    cl_loc: ["Location", "Localisation"],
+    cl_loc_val: ["Morocco", "Maroc"],
+    form_name: ["Your Name", "Votre Nom"],
+    form_email: ["Your Email", "Votre Email"],
+    form_msg: ["Your Message", "Votre Message"],
+    form_send: ["Send Message", "Envoyer le Message"],
+    footer_role: ["Software Engineering Student · Morocco", "Étudiante en Ingénierie Logicielle · Maroc"]
+  };
+
+  const toggle = document.getElementById('langToggle');
+  if (!toggle) return;
+  const opts = toggle.querySelectorAll('.lang-opt');
+
+  function setLang(lang) {
+    const i = lang === 'fr' ? 1 : 0;
+    document.querySelectorAll('[data-key]').forEach(el => {
+      const tr = translations[el.dataset.key];
+      if (tr && tr[i] !== undefined) el.innerHTML = tr[i];
+    });
+    document.documentElement.lang = lang;
+    opts.forEach(o => o.classList.toggle('active', o.dataset.lang === lang));
+  }
+
+  opts.forEach(opt => {
+    opt.addEventListener('click', () => setLang(opt.dataset.lang));
+  });
+})();
+
+// ============ HAMBURGER / MOBILE MENU ============
+(function () {
+  const burger = document.getElementById('hamburger');
+  const menu = document.getElementById('mobile-menu');
+  if (!burger || !menu) return;
+
+  function toggle() {
+    burger.classList.toggle('open');
+    menu.classList.toggle('open');
+    document.body.classList.toggle('locked');
+  }
+  function close() {
+    burger.classList.remove('open');
+    menu.classList.remove('open');
+    document.body.classList.remove('locked');
+  }
+
+  burger.addEventListener('click', toggle);
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
+})();
+</file>
+
+<file path="README.txt">
+Salma Ayouch - Portfolio
+=========================
+
+A remplacer par tes vrais fichiers (le site fonctionne deja sans, avec des placeholders) :
+- assets/images/SalmaAyouch.png -> ta photo (sinon les initiales "SA" s'affichent)
+- assets/images/cv/CV.pdf -> ton CV telechargeable
+- assets/images/projects/*.png -> tes vraies captures d'ecran des 3 projets (actuellement des visuels generes en placeholder)
+
+Formspree : remplace l'ID "xppwwzzn" dans le formulaire de contact (index.html) par le tien.
+
+Pour visualiser : ouvre simplement index.html dans un navigateur.
+</file>
+
+<file path="index.html">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salma Ayouch — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50%25' y='70%25' font-family='Georgia, serif' font-size='65' font-weight='700' text-anchor='middle'><tspan fill='%23EEEEE8'>S</tspan><tspan fill='%23C9A84C'>A</tspan></text></svg>">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- custom cursor accents -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ============ INTRO / PRELOADER ============ -->
+  <div id="intro">
+    <div class="intro-panel top"></div>
+    <div class="intro-panel bottom"></div>
+    <div class="intro-content">
+      <div class="intro-line"></div>
+      <h1 class="intro-name">
+        <span class="word w1"><span>SALMA</span></span>
+        <span class="word w2"><span>AYOUCH</span></span>
+      </h1>
+      <p class="intro-tag"><span>SOFTWARE&nbsp;ENGINEERING&nbsp;STUDENT</span></p>
+    </div>
+  </div>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav id="navbar">
+    <a class="logo" href="#hero">S<span>A</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#hero" data-key="nav_home">Home</a></li>
+      <li><a href="#about" data-key="nav_about">About</a></li>
+      <li><a href="#experience" data-key="nav_exp">Experience</a></li>
+      <li><a href="#projects" data-key="nav_proj">Projects</a></li>
+      <li><a href="#skills" data-key="nav_skills">Skills</a></li>
+      <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button id="langToggle" aria-label="Switch language">
+        <span class="lang-opt active" data-lang="en">EN</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="fr">FR</span>
+      </button>
+      <button id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div id="mobile-menu">
+    <ul>
+      <li><a href="#hero" data-key="nav_home">Home</a></li>
+      <li><a href="#about" data-key="nav_about">About</a></li>
+      <li><a href="#experience" data-key="nav_exp">Experience</a></li>
+      <li><a href="#projects" data-key="nav_proj">Projects</a></li>
+      <li><a href="#skills" data-key="nav_skills">Skills</a></li>
+      <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero">
+    <div class="hero-text">
+      <p class="hero-tag reveal-line"><span data-key="hero_tag">— Software Engineering Student</span></p>
+      <h1 class="hero-name">
+        <span class="reveal-line"><span>Salma</span></span>
+        <span class="reveal-line gold"><span>AYOUCH</span></span>
+      </h1>
+      <p class="hero-desc reveal-line"><span data-key="hero_desc">I build modern, business-oriented web applications
+          and ERP integrations with React, Odoo, Python and PostgreSQL. Based in Morocco.</span></p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-gold water" data-key="hero_btn1">View my work</a>
+        <a href="#contact" class="btn-outline water" data-key="hero_btn2">Contact me</a>
+        <a href="assets/images/cv/CV.pdf" download class="btn-outline water" data-key="hero_cv">Download CV</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" id="heroVisual">
+      <div class="photo-wrap">
+        <img src="assets/images/SalmaAyouch.png" alt="Salma AYOUCH"
+          onerror="this.style.display='none';document.getElementById('initials').style.display='flex'">
+        <div id="initials">SA</div>
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+      </div>
+      <div class="badge b1">React</div>
+      <div class="badge b2">Odoo</div>
+      <div class="badge b3">Python</div>
+      <div class="badge b4">PostgreSQL</div>
+    </div>
+
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="sec-head">
+      <span class="sec-num">01</span>
+      <h2 class="sec-title" data-key="about_title">About <em>Me</em></h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="about-wrap">
+      <div class="about-text fade-up">
+        <p class="about-intro" data-key="about_intro">3rd-year Software Engineering student at EMSI, passionate about
+          building reliable, business-oriented web applications.</p>
+        <p class="about-body" data-key="about_body">I enjoy working across the stack — from crafting clean interfaces
+          to designing solid backend logic and ERP integrations with Odoo, Python and modern web frameworks.</p>
+      </div>
+      <div class="about-info fade-up">
+        <div class="info-item"><span class="ilabel" data-key="about_school">Education</span><span
+            class="ival">EMSI — Software Engineering (3rd Year)</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_city">Location</span><span
+            class="ival">Morocco</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_email">Email</span><span
+            class="ival">salmaa.ayouch@gmail.com</span></div>
+        <div class="info-item"><span class="ilabel" data-key="about_langs">Languages</span><span class="ival"
+            data-key="about_langs_val">French · English · Arabic</span></div>
+        <div class="info-item"><span class="ilabel">GitHub</span><span class="ival">github.com/salmaay13</span></div>
+        <div class="info-item"><span class="ilabel">LinkedIn</span><span
+            class="ival">linkedin.com/in/salma-ayouch</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <div class="sec-head">
+      <span class="sec-num">02</span>
+      <h2 class="sec-title" data-key="exp_title">My <em>Experience</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="exp-wrap">
+      <div class="exp-item fade-up">
+        <div class="exp-left">
+          <span class="exp-year">2026</span>
+          <span class="exp-dur" data-key="exp_dur">2 Months</span>
+        </div>
+        <div class="exp-body">
+          <h3 class="exp-role" data-key="exp_role">Software Engineering Intern</h3>
+          <span class="exp-company">Yealead</span>
+          <p class="exp-desc" data-key="exp_desc">Designed and developed a generic and reusable Approval Workflow
+            Engine for Odoo Community 18, enabling configurable approval workflows, validation steps, tracking, and
+            seamless business-process integration.</p>
+          <ul class="exp-tags">
+            <li>Odoo 18</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>XML-RPC / API</li>
+            <li>PostgreSQL</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects">
+    <div class="sec-head">
+      <span class="sec-num">03</span>
+      <h2 class="sec-title" data-key="proj_title">My <em>Projects</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="projects">
+
+      <!-- 1. Approval Workflow Engine -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame carousel" data-autoplay="4000">
+            <div class="car-track">
+              <img src="assets/images/projects/approval-workflow-1.png" alt="Approval Workflow Engine">
+              <img src="assets/images/projects/approval-workflow-2.png" alt="Approval Workflow Engine Configuration">
+              <img src="assets/images/projects/approval-workflow-3.png" alt="Approval Workflow Engine Tracking">
+            </div>
+            <button class="car-btn prev" aria-label="Previous">‹</button>
+            <button class="car-btn next" aria-label="Next">›</button>
+            <div class="car-dots"></div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p1_cat">ERP Module · Odoo 18</span>
+          <h3 class="proj-title">Approval Workflow Engine</h3>
+          <p class="proj-sub" data-key="p1_sub">Reusable Approval &amp; Validation Module</p>
+          <p class="proj-desc" data-key="p1_desc">A generic approval workflow engine for Odoo Community 18 featuring
+            configurable validation steps, audit trails, and process tracking across custom business workflows.</p>
+          <ul class="proj-tags">
+            <li>Odoo 18</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>XML-RPC / API</li>
+            <li>PostgreSQL</li>
+            <li>Git</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link"
+              data-key="link_github">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. Devis Generator -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame carousel" data-autoplay="4000">
+            <div class="car-track">
+              <img src="assets/images/projects/devis-1.png" alt="Devis Generator">
+              <img src="assets/images/projects/devis-2.png" alt="Devis Generator Configuration">
+              <img src="assets/images/projects/devis-3.png" alt="Devis Generator Odoo Integration">
+            </div>
+            <button class="car-btn prev" aria-label="Previous">‹</button>
+            <button class="car-btn next" aria-label="Next">›</button>
+            <div class="car-dots"></div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p2_cat">Full-Stack Web App · Odoo 17</span>
+          <h3 class="proj-title">Devis Generator</h3>
+          <p class="proj-sub" data-key="p2_sub">Quotation Generator &amp; Odoo Sales Integration</p>
+          <p class="proj-desc" data-key="p2_desc">A business-oriented quotation configurator with dedicated fields and
+            calculation rules that generates quotations directly in Odoo Sales through the Odoo API.</p>
+          <ul class="proj-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Odoo 17</li>
+            <li>JSON-RPC / API</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. Commercial Order Management -->
+      <article class="project fade-up">
+        <div class="proj-visual">
+          <div class="proj-frame carousel" data-autoplay="4000">
+            <div class="car-track">
+              <img src="assets/images/projects/commercial-1.png" alt="Commercial Order Management">
+              <img src="assets/images/projects/commercial-2.png" alt="Commercial Customers &amp; Price Lists">
+              <img src="assets/images/projects/commercial-3.png" alt="Commercial Order Builder">
+            </div>
+            <button class="car-btn prev" aria-label="Previous">‹</button>
+            <button class="car-btn next" aria-label="Next">›</button>
+            <div class="car-dots"></div>
+          </div>
+        </div>
+        <div class="proj-info">
+          <span class="proj-cat" data-key="p3_cat">Sales Management · Odoo Integration</span>
+          <h3 class="proj-title">Commercial Order Management</h3>
+          <p class="proj-sub" data-key="p3_sub">Commercial Order Management</p>
+          <p class="proj-desc" data-key="p3_desc">A sales application for commercial representatives to access their
+            customers, use customer-specific price lists, build product orders, and connect the workflow with Odoo.</p>
+          <ul class="proj-tags">
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Odoo API</li>
+            <li>Price Lists</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="proj-links">
+            <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="sec-head">
+      <span class="sec-num">04</span>
+      <h2 class="sec-title" data-key="skills_title">My <em>Skills</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card fade-up">
+        <span class="skill-ico">&lt;/&gt;</span>
+        <h3 class="skill-name" data-key="skill_front">Frontend</h3>
+        <p class="skill-text" data-key="skill_front_txt">Building clean, interactive user interfaces.</p>
+        <div class="icon-tiles">
+          <div class="icon-tile water"><img src="assets/images/icons/react.png" alt="React"
+              onerror="this.style.display='none'"><span>React</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/js.png" alt="JavaScript"
+              onerror="this.style.display='none'"><span>JavaScript</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/html.png" alt="HTML5"
+              onerror="this.style.display='none'"><span>HTML5</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/css.png" alt="CSS3"
+              onerror="this.style.display='none'"><span>CSS3</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <span class="skill-ico">{ }</span>
+        <h3 class="skill-name" data-key="skill_back">Backend</h3>
+        <p class="skill-text" data-key="skill_back_txt">APIs, server logic, and robust backends.</p>
+        <div class="icon-tiles">
+          <div class="icon-tile water"><img src="assets/images/icons/node.png" alt="Node.js"
+              onerror="this.style.display='none'"><span>Node.js</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/expres.webp" alt="Express"
+              onerror="this.style.display='none'"><span>Express</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/python.png" alt="Python"
+              onerror="this.style.display='none'"><span>Python</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <span class="skill-ico">✦</span>
+        <h3 class="skill-name" data-key="skill_erp">ERP &amp; Database</h3>
+        <p class="skill-text" data-key="skill_erp_txt">Enterprise integration and relational databases.</p>
+        <div class="icon-tiles">
+          <div class="icon-tile water"><img src="assets/images/icons/odoo.webp" alt="Odoo 18"
+              onerror="this.style.display='none'"><span>Odoo 18</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/xml.webp" alt="XML-RPC"
+              onerror="this.style.display='none'"><span>XML-RPC</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/postgresql.png" alt="PostgreSQL"
+              onerror="this.style.display='none'"><span>PostgreSQL</span></div>
+          <div class="icon-tile water"><img src="assets/images/icons/neon.webp" alt="Neon"
+              onerror="this.style.display='none'"><span>Neon</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tools-block fade-up">
+      <span class="tools-label" data-key="tools_label">Tools &amp; Environment</span>
+      <div class="icon-tiles tools">
+        <div class="icon-tile water"><img src="assets/images/icons/git.png" alt="Git"
+            onerror="this.style.display='none'"><span>Git</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/github.png" alt="GitHub"
+            onerror="this.style.display='none'"><span>GitHub</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/vscode.png" alt="VS Code"
+            onerror="this.style.display='none'"><span>VS Code</span></div>
+        <div class="icon-tile water"><img src="assets/images/icons/linux.webp" alt="Linux"
+            onerror="this.style.display='none'"><span>Linux</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact">
+    <div class="sec-head">
+      <span class="sec-num">05</span>
+      <h2 class="sec-title" data-key="contact_title">Get In <em>Touch</em></h2>
+      <div class="sec-line"></div>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info fade-up">
+        <h3 class="contact-big" data-key="contact_big">Let's build<br>something together.</h3>
+        <p class="contact-sub" data-key="contact_sub">Open to internships, projects, and collaboration opportunities.
+          Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:salmaa.ayouch@gmail.com" class="contact-line">
+            <span class="cl-label" data-key="cl_email">Email</span>
+            <span class="cl-val">salmaa.ayouch@gmail.com</span>
+          </a>
+          <a href="https://github.com/salmaay13" target="_blank" rel="noopener" class="contact-line">
+            <span class="cl-label">GitHub</span>
+            <span class="cl-val">github.com/salmaay13</span>
+          </a>
+          <a href="https://www.linkedin.com/in/salma-ayouch/" target="_blank" rel="noopener" class="contact-line">
+            <span class="cl-label">LinkedIn</span>
+            <span class="cl-val">linkedin.com/in/salma-ayouch</span>
+          </a>
+          <div class="contact-line">
+            <span class="cl-label" data-key="cl_loc">Location</span>
+            <span class="cl-val" data-key="cl_loc_val">Morocco</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form fade-up" id="contactForm" action="https://formspree.io/f/xppwwzzn" method="POST">
+        <div class="field">
+          <input type="text" id="cName" name="name" required>
+          <label for="cName" data-key="form_name">Your Name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="cEmail" name="email" required>
+          <label for="cEmail" data-key="form_email">Your Email</label>
+        </div>
+        <div class="field">
+          <textarea id="cMsg" name="message" rows="4" required></textarea>
+          <label for="cMsg" data-key="form_msg">Your Message</label>
+        </div>
+        <button type="submit" class="btn-gold water form-btn" data-key="form_send">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+
+    <footer class="site-footer">
+      <span>© 2026 Salma Ayouch</span>
+      <span data-key="footer_role">Software Engineering Student · Morocco</span>
+    </footer>
+  </section>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div id="lightbox">
+    <div class="lb-stage">
+      <button class="lb-close" aria-label="Close">✕</button>
+      <button class="lb-nav prev" aria-label="Previous">‹</button>
+      <img class="lb-img" src="" alt="">
+      <button class="lb-nav next" aria-label="Next">›</button>
+      <div class="lb-counter"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+</file>
+
+</files>
